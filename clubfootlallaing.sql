@@ -1,5 +1,5 @@
-create database if not exists clubfootlallaing2 CHARACTER SET utf8 COLLATE utf8_unicode_ci; /* j'ai aoujouté l'interclassement pour spécifier que la base utilise l'utf8 */
-use clubfootlallaing2;
+create database if not exists clubfootlallaing CHARACTER SET utf8 COLLATE utf8_unicode_ci; /* j'ai aoujouté l'interclassement pour spécifier que la base utilise l'utf8 */
+use clubfootlallaing;
 
 CREATE TABLE if not exists Saison(
    Id_Saison DATE,
@@ -8,11 +8,11 @@ CREATE TABLE if not exists Saison(
 Engine = InnoDB CHARSET=utf8 COLLATE utf8_unicode_ci;
 
 CREATE TABLE if not exists article(
-   id_article INT,
+   article INT not null,
    contenue_art TEXT,
    date_ DATE,
    ref_image VARCHAR(50),
-   PRIMARY KEY(id_article)
+   PRIMARY KEY(article)
 )
 Engine = InnoDB CHARSET=utf8 COLLATE utf8_unicode_ci;
 
@@ -55,5 +55,13 @@ CREATE TABLE if not exists But(
 )
 Engine = InnoDB CHARSET=utf8 COLLATE utf8_unicode_ci;
 
+CREATE TABLE if not exists UTILISATEUR(
+   ID_UTILISATEUR INT not null,
+   PSEUDO_UTILISATEUR VARCHAR(50) NOT NULL,
+   EMAIL_UTILISATEUR VARCHAR(100),
+   ABONNE_NEWS boolean not null,
+   PRIMARY KEY(ID_UTILISATEUR),
+)
+Engine = InnoDB CHARSET=utf8 COLLATE utf8_unicode_ci;
 
 

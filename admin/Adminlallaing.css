@@ -1,0 +1,14 @@
+.h2admin {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.h3admin {
+    text-align: center;
+}
+
+.border {
+    border: 2px black solid;
+    margin-top: 50px;
+}

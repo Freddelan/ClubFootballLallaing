@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
 /*Navigation*/
-* {
-    margin: 0px;
-    padding: 0px;
+body {
+    margin: 10px;
     font-family: Avenir, sans-serif;
     background-color: #CCC;
 }
@@ -26,10 +25,10 @@ nav ul {
 
 nav ul li {
     float: left;
-    width: 16%;
+    width: 12%;
     text-align: center;
     position: relative;
-    border: solid 2px black;
+    border: solid 1px black;
     border-radius: 5%;
 
 }
@@ -44,13 +43,13 @@ nav a {
     display: block;
     text-decoration: none;
     color: black;
-    border-bottom: 2px solid transparent;
+    border-bottom: 1px solid transparent;
     padding: 5px 0px;
 }
 
 nav a:hover {
     color: orange;
-    border-bottom: 2px solid gold;
+    border-bottom: 1px solid gold;
 }
 
 .sous {
@@ -63,7 +62,7 @@ nav a:hover {
 
 }
 
-nav>ul li:hover .sous {
+/*nav>ul li:hover .sous {
     display: block;
 }
 
@@ -83,6 +82,7 @@ nav>ul li:hover .sous {
     background-color: RGBa(200, 200, 200, 0.1);
 }
 
+
 .deroulant>a::after {
     content: " ▼";
     font-size: 12px;
@@ -99,8 +99,15 @@ nav>ul li:hover .sous {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-top: 5px;
+
 }
 
+img {
+    width: 150px;
+    height: 150px;
+}
+
+/* titre */
 h1 {
     display: inline-block;
     vertical-align: middle;

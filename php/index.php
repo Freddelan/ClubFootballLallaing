@@ -1,10 +1,4 @@
-<?php
-//On démarre une nouvelle session
-session_start();
-//On définit des variables de session
-$_SESSION['nom'] = 'Hugo';
-$_SSESSION['age'] = 19;
-?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -14,8 +8,7 @@ $_SSESSION['age'] = 19;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styleindex.css">
 
     <title>D.C.L
         LALLAING</title>
@@ -25,9 +18,9 @@ $_SSESSION['age'] = 19;
     <header>
         
             <div class="logo">
-             <img src="Media/logoLallaing2-removebg-preview.png" alt="logo club de foot Lallaing"></img>
+             <img src="logoDCL.png" alt="logo club de foot Lallaing"></img>
             </div>
-            <div class="titre"><h1>Lallaing Football Club</h1></div>
+            <div class="titre"><h1>Dynamique C. Lallaing</h1></div>
             <nav>  
                     <ul>
                         <li><a href="#">Accueil</a></li>
