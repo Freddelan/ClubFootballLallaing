@@ -2,7 +2,7 @@
 //On démarre une nouvelle session
 session_start();
 
-echo 'Bienvenue sur la premiere page';
+
 //On définit des variables de session
 
 $_SESSION['nom'] = 'admin';

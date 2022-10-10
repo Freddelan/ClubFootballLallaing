@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#renseign {
+    display: block;
+    position: relative;
+    margin-left: 43%;
+}
+
+label {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#bouton {
+    display: flex;
+    margin-left: 47%;
+}

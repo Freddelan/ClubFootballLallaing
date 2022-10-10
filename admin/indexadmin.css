@@ -1,17 +1,21 @@
 body {
     margin: 0px;
 
-    background-color: cornsilk;
+    background-color: black;
 }
 
 .titindex {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
+    color: azure;
 }
 
 .h3index {
     text-align: center;
+    color: azure;
+    font-size: 25px;
+    padding-right: 10px;
 }
 
 .centre {

@@ -2,7 +2,7 @@
         include("Connect1.php");
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="indexadmin.css">
     <link rel="stylesheet" href="adminlallaing.css">
     <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="ajoutart.css">
     <title>Document</title>
 </head>
 
 </html>
 <body>
-    <div class="titre"><h1>Lallaing Football Club</h1>
-<img src="Media/logoDCL.png" alt="logoDCL">
+    <div class="gradient-text"><h1>Dynamic C. Lallaing</h1>
+<img src="C:\wamp64\www\ClubFootLallaing\php\logoDCL.png" alt="logoDCL">
 </div>
    <div class="deconnexion">
         <form action="index.php" method="post">
