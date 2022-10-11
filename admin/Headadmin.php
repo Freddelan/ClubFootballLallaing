@@ -18,7 +18,7 @@
 </html>
 <body>
     <div class="gradient-text"><h1>Dynamic C. Lallaing</h1>
-<img src="C:\wamp64\www\ClubFootLallaing\php\logoDCL.png" alt="logoDCL">
+        <img src="../php/logoDCL.png" alt="logoDCL">
 </div>
    <div class="deconnexion">
         <form action="index.php" method="post">

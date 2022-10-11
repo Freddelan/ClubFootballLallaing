@@ -11,6 +11,10 @@
     <link rel="stylesheet" type="text/css" href="stylehead.css">
     <link rel="stylesheet" type="text/css" href="contact.css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    
+
+
     <title>D.C.L
         LALLAING</title>
 </head>
@@ -19,15 +23,18 @@
     <header>
         
             <div class="logo">
-             <img src="logoDCL.png" alt="logo club de foot Lallaing"></img>
+             <img class="imglogo" src="logoDCL.png" alt="logo club de foot Lallaing"></img>
             </div>
             <div class="titre"><h1>Dynamic C. Lallaing</h1></div>
-            <nav>  
+          <!-- <img class="ballon2" src="media/ballon2.png" alt="image de ballon">-->
+           
+            <nav>   <!--<img class="ballon1" src="media/ballon1.png" alt="image de ballon">-->
+            <img class="ballon3" src="media/ballon1.png" alt="image de ballon">
                     <ul>
                         <li><a href="index.php">Accueil</a></li>
                         <li class="deroulant"><a href="#">Equipes</a>
                            
-                        <ul class="sous">
+                                <ul class="sous">
                                     <li><a href="#">U6-U7(5-6 ans)</a></li>
                                     <li><a href="#">U8-U9(7-8 ans)</a></li>
                                     <li><a href="#">U10(9 ans)</a></li>
@@ -59,10 +66,13 @@
                         
                         <li><a href="#">Butteurs</a></li>
                         <li><a href="contact.php">Contact</a></li>
+                        
+
                     </ul>  
         </nav>
          
-    </header><div class="d1"></div>
+    </header>
+    
 
 </div>
     
@@ -81,6 +91,3 @@
         })
     </script>
     <script src="script.js"></script>-->
-</body>
-
-</html>

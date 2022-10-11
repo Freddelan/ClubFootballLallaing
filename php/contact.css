@@ -8,14 +8,17 @@ h2 {
     display: block;
     position: relative;
     margin-left: 43%;
+    margin-bottom: 50px;
 }
 
 label {
     padding-top: 20px;
     padding-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 #bouton {
     display: flex;
     margin-left: 47%;
+
 }
