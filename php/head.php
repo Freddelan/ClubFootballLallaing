@@ -29,7 +29,7 @@
           <!-- <img class="ballon2" src="media/ballon2.png" alt="image de ballon">-->
            
             <nav>   <!--<img class="ballon1" src="media/ballon1.png" alt="image de ballon">-->
-            <img class="ballon3" src="media/ballon1.png" alt="image de ballon">
+                <img class="ballon3" src="media/ballon1.png" alt="image de ballon">
                     <ul>
                         <li><a href="index.php">Accueil</a></li>
                         <li class="deroulant"><a href="#">Equipes</a>
@@ -41,6 +41,8 @@
                                     <li><a href="#">U11(10 ans)</a></li>
                                     <li><a href="#">U12-U13(11-12 ans)</a></li>
                                     <li><a href="#">U14-U15(13-14 ans)</a></li>
+                                    <li><a href="#">Seniors</a></li>
+
                                 </ul>
                         </li>
                         <li class="deroulant"><a href="#">Photos</a>
@@ -51,8 +53,9 @@
                                     <li><a href="#">Photos U11</a></li>
                                     <li><a href="#">Photos U12-U13</a></li>
                                     <li><a href="#">Photos U14-U15</a></li>
+                                    <li><a href="#">Seniors</a></li>
                                 </ul>
-                    </li>
+                        </li>
                         <li class="deroulant"><a href="#">Calendrier</a>
                                 <ul class="sous">  
                                     <li><a href="#">Calendrier U6-U7</a></li>
@@ -61,16 +64,12 @@
                                     <li><a href="#">Calendrier U11</a></li>
                                     <li><a href="#">Calendrier U12-U13</a></li>
                                     <li><a href="#">Calendrier U14-U15</a></li>
+                                    <li><a href="#">Seniors</a></li>
                                 </ul>
-                    </li>
-                        
-                        <li><a href="#">Butteurs</a></li>
+                        </li>
                         <li><a href="contact.php">Contact</a></li>
-                        
-
-                    </ul>  
+                    </ul>
         </nav>
-         
     </header>
     
 

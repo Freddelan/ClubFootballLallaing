@@ -13,6 +13,7 @@ nav {
     background-color: rgb(249, 222, 4);
     position: sticky;
     text-align: center;
+
 }
 
 nav ul {
@@ -27,7 +28,8 @@ nav ul li {
     text-align: center;
     position: relative;
     border-radius: 5%;
-    margin-left: 40px;
+    margin-left: 60px;
+    box-shadow: 0px 15px 10px -5px #777;
 }
 
 nav ul::after {
@@ -44,11 +46,11 @@ nav a {
     padding: 5px 0px;
 }
 
-/*nav a:hover {
+nav a:hover {
     color: #ecf546;
     border-bottom: 1px solid black;
     background-color: black;
-}*/
+}
 
 .sous {
     display: none;
@@ -68,7 +70,7 @@ nav>ul li:hover .sous {
 .sous li {
 
     width: 100%;
-    margin-left: -10px;
+    margin-left: -20px;
 }
 
 .sous ul li {
@@ -95,6 +97,7 @@ nav>ul li:hover .sous {
 .conteneur {
     margin: 50px 20px;
     height: 1500px;
+    box-shadow: 0px 15px 10px -5px #777;
 }
 
 /* logo */
@@ -113,9 +116,10 @@ nav>ul li:hover .sous {
     border: solid 1px black;
     border-radius: 50%;
     border-color: #ecf546;
+    box-shadow: 10px 10px 10px 0px #777;
 }
 
-.ballon1 {
+/*.ballon1 {
     width: 50px;
     height: 49px;
     position: absolute;
@@ -141,15 +145,14 @@ nav>ul li:hover .sous {
 
 /* titre */
 h1 {
-
-    vertical-align: middle;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     letter-spacing: 20px;
     font-size: 40px;
     font-weight: normal;
     color: rgb(249, 222, 4);
     margin-left: 220px;
-    text-shadow: 2px 2px 5px grey;
+    text-shadow: 2px 2px 5px grey, 0 0 25px blue, 0 0 5px darkblue;
     margin-top: -100px;
     padding-bottom: 70px;
+    margin-left: 350px;
 }
