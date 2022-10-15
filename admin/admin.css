@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: azure;
 }
 
 .ajoute {
@@ -42,6 +43,7 @@ h3 {
     justify-content: center;
     font-family: cursive;
     margin-top: 0%;
+    color: azure;
 }
 
 h2,

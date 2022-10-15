@@ -10,7 +10,7 @@ $_SESSION['password'] = 'admin';
 echo '<br /><a href="adminlallaing.php?"></a>';
 ?>
 <?php 
-include ("connect1.php");
+include ("connect.php");
 include ("headadmin.php");
 ?>
 

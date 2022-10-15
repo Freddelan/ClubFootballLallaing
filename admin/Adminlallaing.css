@@ -1,14 +1,24 @@
 .h2admin {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: azure;
 }
 
 .h3admin {
     text-align: center;
+    color: whitesmoke;
 }
 
 .border {
     border: 2px black solid;
     margin-top: 50px;
+}
+
+#mySidenav {
+    display: block;
+}
+
+.lelogo {
+    display: none;
 }

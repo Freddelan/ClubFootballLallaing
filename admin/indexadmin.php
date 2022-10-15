@@ -11,7 +11,8 @@ echo '<br /><a href="adminlallaing.php?"></a>';
 ?>
 
 <?php 
-include("headadmin.php")
+include("headadmin.php");
+
 ?>
 
 <body>

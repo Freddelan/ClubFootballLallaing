@@ -1,14 +1,17 @@
 <?php
-include("connect1.php");
+include("connect.php");
 include("connect2.php");
 include("headadmin.php");
+
 ?>
 <?php
+
 if ($_GET['prodId'] == 'ajoutart') {
+    
     $nouvauxart=$_GET;
     $cnx->exec("alter table article auto_increment = 0");
-    $cnx->exec("INSERT INTO article (date_ , ref_image , contenue_art) 
-    values ('$nouvauxart[Date_de_publication]','$nouvauxart[Image]','$nouvauxart[article]')");  
+    $cnx->exec("INSERT INTO article (lesume, titre_article, date_ , ref_image , contenue_art) 
+    values ('$nouvauxart[resume]','$nouvauxart[titreart]','$nouvauxart[Date_de_publication]','$nouvauxart[Image]','$nouvauxart[article]')");  
 
       $searchpseudo = $cnx->query('select * from utilisateur where ABONNE_NEWS = 1');
       $donneespseudo = $searchpseudo->fetchall(PDO::FETCH_OBJ);
@@ -32,6 +35,7 @@ if ($_GET['prodId'] == 'ajoutart') {
       <h1 class="h1ajart">Votre article a bien été rajouté</h1>
       <?php
 }
+
 if (!empty($_GET['demo5'])) {
     if ($_GET['prodId'] == 'rsupart' && $_GET['demo5'] == 'on') {
     $cnx->exec("UPDATE article SET ARCHIVE = '1' WHERE ARTICLE ='$_GET[article]'");
@@ -45,6 +49,7 @@ if (!empty($_GET['demo5'])) {
 ?>
 
 <?php
+
 if (!empty($_GET['demo5'])) {
     if ($_GET['prodId'] == 'supart' && $_GET['demo5'] == 'on') {
     $cnx->exec("UPDATE article SET ARCHIVE = '0' WHERE ARTICLE ='$_GET[article]'");
@@ -57,10 +62,10 @@ if (!empty($_GET['demo5'])) {
 
 if ($_GET['prodId'] == 'supcom') {
     $id = explode(" ", $_GET['id']);
-    $cnx->exec("DELETE FROM commentaire WHERE ARTICLE ='$id[1]' and ID_COMMENTAIRE ='$id[0]'");
+    $cnx->exec("DELETE FROM article WHERE id_article ='$id[0]'");
 
 ?>
-    <h1 class="h1ajart">Votre commentaire a bien été supprimé</h1>
+    <h1 class="h1ajart">Votre article a bien été supprimé</h1>
 <?php
  }
 
@@ -87,5 +92,5 @@ if ($_GET['prodId'] == 'supcom') {
  } 
 ?>
 
-    
+    <script src="script2.js"></script>
 

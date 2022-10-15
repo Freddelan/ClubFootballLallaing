@@ -1,5 +1,6 @@
 <?php
-        include("Connect1.php");
+        include("Connect.php");
+        
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -17,11 +18,11 @@
 
 </html>
 <body>
-    <div class="gradient-text"><h1>Dynamic C. Lallaing</h1>
-        <img src="../php/logoDCL.png" alt="logoDCL">
+    <div class="titreAd"><h1>Dynamic C. Lallaing</h1>
+        <img class="lelogo" src="../php/logoDCL.png" alt="logoDCL">
 </div>
    <div class="deconnexion">
-        <form action="index.php" method="post">
+        <form action="../php/index.php" method="post" >
             <p><input class="inputdeco" type="submit" value="Déconnexion" /></p>  
         </form>
     </div>
@@ -35,6 +36,7 @@
                 <li><a href="admin.php?var=sup_c">Supprimer un commentaire</a></li>
                 <li><a href="admin.php?var=sup_u">Lister un utilisateur</a></li>
                 <li><a href="admin.php?var=dsup_u">Délister un utilisateur </a></li>
+                <li><a href="admin.php?var=ajou_ph">Ajouter photo </a></li>
             </ul>
     </div>
     <?php
@@ -59,6 +61,6 @@ session_destroy();
    
 
 
-    <script type="text/javascript" src="scripthead.js"></script>
+    <script type="text/javascript" src="disable.js"></script>
 </body>
 </html>

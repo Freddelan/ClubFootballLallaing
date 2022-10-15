@@ -1,5 +1,5 @@
 <?php
-        include("connect1.php");
+        include("connect.php");
         include("headadmin.php");
         
 ?>
@@ -12,17 +12,18 @@
         ?>
         <div class="formulaire">
                 <form action="ajoutart.php?var=nouveau" method="get" id="ajoute">
+                        
+                        
                     <h3 class="h3admin">Saisissez votre article</h3>
-                    
+                    <input type="text" name="titreart"  required="required" placeholder="Titre">
                     <input id="prodId" name="prodId" type="hidden" value="ajoutart" required="required">
-                    <DIV class="BOX1">
-                       
-                    </DIV>
+                    <div class="BOX1">
+                </div>
                     
                     <input type="date" name="Date de publication" placeholder="Date" required="required">
                     <input type="file" name="Image" required="required">
-                    <small></small>
-                    <textarea name="article" id="article" cols="30" rows="10" required="required" placeholder="Article....." ></textarea>
+                    <textarea name="resume" id="resume" cols="10" rows="5" required="required" placeholder="Resume....." ></textarea>
+                    <textarea name="article" id="article" cols="30" rows="20" required="required" placeholder="Article....." ></textarea>
                     <input type="submit" value="Ajouter" id="valider" name="Valide">
                 </form>
         </div>
@@ -34,7 +35,7 @@
         ?>
         <div class="formulaire">
                 <form id="check" action="ajoutart.php?var=sup_a" method="get">
-                <h3>Archiver un article</h3>
+                        <h3>Archiver un article</h3>
                         <select name="article" id="Categorie" required>
                                                 <option value="">Choisissez un article</option>
                                         <?php
@@ -68,7 +69,7 @@
         ?>
         <div class="formulaire">
                 <form id="check" action="ajoutart.php?var=sup_a" method="get">
-                <h3>désarchiver un article</h3>
+                        <h3>désarchiver un article</h3>
                         <select name="article" id="Categorie" required>
                                                 <option value="">Choisissez un article</option>
                                         <?php
@@ -97,20 +98,23 @@
         ?>
         <?php
         if ($_GET['var']== 'sup_c') {
-                $reponsecat1 = $cnx->query('SELECT * FROM commentaire NATURAL JOIN utilisateur NATURAL JOIN article ORDER BY DATE_COMMENTAIRE DESC');
-                $donneescat1 = $reponsecat1->fetchall(PDO::FETCH_OBJ);
+                $reponsecat1 = $cnx->query('SELECT * FROM article');
+                $donneescat1 = $reponsecat1->fetchall();
         ?>
          <div class="formulaire">
                 <form id="check" action="ajoutart.php?var=sup_c" method="get">
-                <h3>Supprimer un commentaire</h3>
+                <h3>Supprimer un article</h3>
                         <select name="id" id="Categorie2" required>
-                                                <option value="">Choisissez le commentaire a supprimer</option>
+                                                <option value="">Choisissez l'article à supprimer</option>
                                         <?php
-                                        foreach($donneescat1 as $resultat1)
-                                        {
+                                        for($i=0;$i<count($donneescat1);$i++){
+                                        
                                         ?>
-                                                <option value="<?=$resultat1->ID_COMMENTAIRE." ".$resultat1->ARTICLE?>"> <?=$resultat1->PSEUDO_UTILISATEUR." ".$resultat1->DATE_COMMENTAIRE." ".$resultat1->CONTENU_COMMENTAIRE?></option>
+                                                <option value="<?=$donneescat1[$i][0]?>"> 
+                                                        <?=$donneescat1[$i][2]?>
+                                                </option>
                                         <?php
+                                        
                                         }
                                         
                                         ?>
@@ -121,7 +125,7 @@
                         <input type="checkbox" name="demo5" class="demo5" id="demo5" onclick="exemple()">
                         <label for="demo5"></label>   
                         </div>
-                        <input type="submit" value="Supprimer" id="sub" disabled>  
+                        <input type="submit" value="Supprimer" id="sub" disabled >  
                 </form>
         </div>
         <?php
@@ -154,7 +158,7 @@
                         <input type="checkbox" name="demo5" class="demo5" id="demo5" onclick="exemple()" >
                         <label for="demo5"></label>   
                         </div>
-                        <input type="submit" value="Lister" id="sub" disabled>  
+                        <input type="submit" value="Lister" id="sub" >  
                 </form>
         </div>
         <?php          
@@ -185,12 +189,12 @@
                         <input type="checkbox" name="demo5" class="demo5" id="demo5" onclick="exemple()" >
                         <label for="demo5"></label>   
                         </div>
-                        <input type="submit" value="Délister" id="sub" disabled>  
+                        <input type="submit" value="Délister" id="sub" >  
                 </form>
         </div>
         <?php          
         }
         ?>
-        <script type="text/javascript" src="script.js"></script>
+        <!--<script type="text/javascript" src="disable.js"></script>-->
 </body>
 </html>

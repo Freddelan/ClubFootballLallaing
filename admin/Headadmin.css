@@ -36,8 +36,8 @@
     }
 
     img {
-        width: 20%;
-        height: 20%;
+        width: 10%;
+        height: 10%;
 
     }
 
@@ -72,13 +72,9 @@
         transition: left 0.5s ease;
     }
 
-    .image {
-        text-align: center;
-    }
-
     img {
-        width: 20%;
-        height: 20%;
+        width: 10%;
+        height: 10%;
     }
 
     .sidenav ul {
@@ -124,84 +120,25 @@
 }
 
 .deconnexion {
-    width: 20%;
-    display: flex;
-    justify-content: center;
+    width: 10%;
     margin-top: 0px;
-    margin-left: 500px;
+    margin: auto;
     border: 2px black solid;
     margin-top: 50px;
+
 }
 
-.gradient-text {
+.titreAd {
     text-align: center;
-
+    color: chartreuse;
 
 }
 
 body {
+    margin-top: -10px;
+}
+
+html {
+    background-color: rgb(246, 242, 242);
     margin: 0px;
-
-    background-color: black;
-}
-
-/*.gradient-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20vmin;
-    line-height: 15vmin;
-}*/
-
-.gradient-text {
-    color: transparent;
-    background: conic-gradient(#D9D7F1 12%,
-            #BAABDA 12%, #BAABDA 33%,
-            #E7FBBE 33%, #E7FBBE 55%,
-            #FFCBCB 55%, #FFCBCB 70%,
-            #B5DEFF 70%, #B5DEFF 87%,
-            #F7D1BA 87%);
-    background-size: 50%;
-    background-clip: text;
-    -webkit-background-clip: text;
-
-    animation: expand-rev 0.5s ease forwards;
-
-    cursor: pointer;
-}
-
-.gradient-text:hover {
-    animation: expand 0.5s ease forwards;
-}
-
-@keyframes expand {
-    0% {
-        background-size: 50%;
-        background-position: 0 0;
-    }
-
-    20% {
-        background-size: 55%;
-        background-position: 0 1em;
-    }
-
-    100% {
-        background-size: 325%;
-        background-position: -10em -4em;
-    }
-}
-
-@keyframes expand-rev {
-    0% {
-        background-size: 325%;
-        background-position: -10em -4em;
-    }
-
-    20% {
-        background-size: 55%;
-        background-position: 0 1em;
-    }
-
-    100% {
-        background-size: 50%;
-        background-position: 0 0;
-    }
 }
