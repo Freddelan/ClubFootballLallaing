@@ -1,10 +1,3 @@
-<?php
-        include("connect.php");
-        include("headadmin.php");
-        
-?>
-
-
 <body>
         <?php
         if ($_GET['var']=='nouvel') { 
@@ -21,7 +14,7 @@
                 </div>
                     
                     <input type="date" name="Date de publication" placeholder="Date" required="required">
-                    <input type="file" name="Image" required="required">
+                    <input type="file" name="Image" >
                     <textarea name="resume" id="resume" cols="10" rows="5" required="required" placeholder="Resume....." ></textarea>
                     <textarea name="article" id="article" cols="30" rows="20" required="required" placeholder="Article....." ></textarea>
                     <input type="submit" value="Ajouter" id="valider" name="Valide">
@@ -30,7 +23,7 @@
         <?php
         }
         if ($_GET['var']=='sup_a') {
-                $reponsecat = $cnx->query('select * from article WHERE ARCHIVE = 1');
+                $reponsecat = $cnx->query('select * from article WHERE ARCHIVE = 1 ORDER_BY DATE DESC');
                 $donneescat = $reponsecat->fetchall(PDO::FETCH_OBJ);
         ?>
         <div class="formulaire">
@@ -195,6 +188,6 @@
         <?php          
         }
         ?>
-        <!--<script type="text/javascript" src="disable.js"></script>-->
+        <script type="text/javascript" src="disable.js"></script>
 </body>
 </html>

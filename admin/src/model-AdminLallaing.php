@@ -9,10 +9,6 @@ $_SESSION['nom'] = 'admin';
 $_SESSION['password'] = 'admin';
 echo '<br /><a href="adminlallaing.php?"></a>';
 ?>
-<?php 
-include ("connect.php");
-include ("headadmin.php");
-?>
 
 <body>
 <?php

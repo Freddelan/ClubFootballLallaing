@@ -1,20 +1,3 @@
-<?php
-//On démarre une nouvelle session
-session_start();
-
-
-//On définit des variables de session
-
-$_SESSION['nom'] = 'admin';
-$_SESSION['password'] = 'admin';
-echo '<br /><a href="adminlallaing.php?"></a>';
-?>
-
-<?php 
-include("headadmin.php");
-
-?>
-
 <body>
     <div class="connection">
         <h2 class="titindex">Bienvenue sur la page Administrateur</h2>

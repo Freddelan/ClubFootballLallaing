@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,31 +8,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="stylehead.css">
-    <link rel="stylesheet" type="text/css" href="contact.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="article_entier.css">
-    <link rel="stylesheet" type="text/css" href="footer.css">
-    
-
-
-    <title>D.C.L
-        LALLAING</title>
+    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/stylehead.css">
+    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/contact.css">
+    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/index.css">
+    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/article_entier.css">
+    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/footer.css">
+    <title>D.C.L LALLAING</title>
 </head>
-
 <body>
     <header>
-        
             <div class="logoPrin">
-             <img class="imglogo" src="logoDCL.png" alt="logo club de foot Lallaing"></img>
+             <img class="imglogo" src="/ClubFootLallaing/php/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
             </div>
             <div class="titre"><h1>Dynamic C. Lallaing</h1></div>
           <!-- <img class="ballon2" src="media/ballon2.png" alt="image de ballon">-->
-           
             <nav>   <!--<img class="ballon1" src="media/ballon1.png" alt="image de ballon">-->
-                <img class="ballon3" src="media/ballon1.png" alt="image de ballon">
+                <img class="ballon3" src="/ClubFootLallaing/php/media/ballon1.png" alt="image de ballon">
                     <ul>
-                        <li><a href="index.php">Accueil</a></li>
+                        <li><a href="/ClubFootLallaing/php/index.php">Accueil</a></li>
                         <li class="deroulant"><a href="#">Equipes</a>
                            
                                 <ul class="sous">
@@ -69,14 +61,10 @@
                                     <li><a href="#">Seniors</a></li>
                                 </ul>
                         </li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="/ClubFootLallaing/php/controler/controler-contact.php">Contact</a></li>
                     </ul>
         </nav>
     </header>
-    
-
-</div>
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!--<script src="script.js"></script>-->
 

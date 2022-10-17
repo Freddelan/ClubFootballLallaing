@@ -1,7 +1,3 @@
-<?php
-        include("Connect.php");
-        
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -39,16 +35,6 @@
                 <li><a href="admin.php?var=ajou_ph">Ajouter photo </a></li>
             </ul>
     </div>
-    <?php
-/*Si la variable de session age est définie, on echo sa valeur
-*puis on la détruit avec unset()*/
-if(isset($_SESSION['nom']))
-/*On détruit les données de session*/
-session_destroy();
-
-//On tente d'afficher les valeurs des variables age et prenom
-
-?>
     <div class="box">
         <a href="#" id="openBtn">
         <span class="burger-icon">

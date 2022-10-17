@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 .autreMenu ul {
     list-style: none;
     text-align: left;
@@ -18,15 +20,25 @@
 
 h3 {
     /*titre Autre Menu*/
-
+    font-family: 'Roboto', sans-serif;
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-bottom: 2px solid black;
     letter-spacing: 2px;
+
 }
 
-header {
-    background-image: url("media/banniere_foot.jpg");
+.Sidebar {}
+
+aside {
+    float: right;
+    width: 315px;
+    border: 1px solid #D8D8D8;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.86);
+}
+
+feuille de style user-agent aside {
+    display: block;
 }
 
 .imgArt2 {
@@ -37,12 +49,15 @@ header {
     display: inline-block;
 }
 
-
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
 
 .texte {
     /*texte de l'article*/
     margin-top: 100px;
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div p {
@@ -51,4 +66,14 @@ div p {
 
 .date {
     font-size: 20px;
+}
+
+.ligne {
+    background-color: #F9DE04;
+    height: 1px;
+    border: none;
+}
+
+.Nous_trouver {
+    text-align: center;
 }

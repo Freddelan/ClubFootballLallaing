@@ -1,10 +1,4 @@
 <?php
-include("connect.php");
-include("connect2.php");
-include("headadmin.php");
-
-?>
-<?php
 
 if ($_GET['prodId'] == 'ajoutart') {
     
@@ -91,6 +85,4 @@ if ($_GET['prodId'] == 'supcom') {
 <?php
  } 
 ?>
-
-    <script src="script2.js"></script>
-
+<script src="script2.js"></script>
