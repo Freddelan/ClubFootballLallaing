@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="headadmin.css">
-    <link rel="stylesheet" href="indexadmin.css">
-    <link rel="stylesheet" href="adminlallaing.css">
-    <link rel="stylesheet" href="admin.css">
-    <link rel="stylesheet" href="ajoutart.css">
+    <link rel="stylesheet" href="/ClubFootLallaing/admin/style/headadmin.css">
+    <link rel="stylesheet" href="/ClubFootLallaing/admin/style/indexadmin.css">
+    <link rel="stylesheet" href="/ClubFootLallaing/admin/style/adminlallaing.css">
+    <link rel="stylesheet" href="/ClubFootLallaing/admin/style/admin.css">
+    <link rel="stylesheet" href="/ClubFootLallaing/admin/style/ajoutart.css">
     <title>Document</title>
 </head>
 
-</html>
+
 <body>
     <div class="titreAd"><h1>Dynamic C. Lallaing</h1>
         <img class="lelogo" src="../php/logoDCL.png" alt="logoDCL">
 </div>
    <div class="deconnexion">
-        <form action="../php/index.php" method="post" >
+        <form action="../../php/index.php" method="post" >
             <p><input class="inputdeco" type="submit" value="Déconnexion" /></p>  
         </form>
     </div>
@@ -26,13 +26,13 @@
     <div id="mySidenav" class="sidenav">
     
             <ul>
-                <li><a href="admin.php?var=nouvel">Ajouter un article</a></li>
-                <li><a href="admin.php?var=sup_a">Archiver article</a></li>
-                <li><a href="admin.php?var=dsup_a">Désarchiver article</a></li>
-                <li><a href="admin.php?var=sup_c">Supprimer un commentaire</a></li>
-                <li><a href="admin.php?var=sup_u">Lister un utilisateur</a></li>
-                <li><a href="admin.php?var=dsup_u">Délister un utilisateur </a></li>
-                <li><a href="admin.php?var=ajou_ph">Ajouter photo </a></li>
+                <li><a href="controler-admin.php?var=nouvel">Ajouter un article</a></li>
+                <li><a href="controler-admin.php?var=sup_a">Archiver article</a></li>
+                <li><a href="controler-admin.php?var=dsup_a">Désarchiver article</a></li>
+                <li><a href="controler-admin.php?var=sup_c">Supprimer un commentaire</a></li>
+                <li><a href="controler-admin.php?var=sup_u">Lister un utilisateur</a></li>
+                <li><a href="controler-admin.php?var=dsup_u">Délister un utilisateur </a></li>
+                <li><a href="controler-admin.php?var=ajou_ph">Ajouter photo </a></li>
             </ul>
     </div>
     <div class="box">

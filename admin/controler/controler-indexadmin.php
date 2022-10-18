@@ -1,10 +1,10 @@
 <?php 
-include("headadmin.php");
-
+include("../vue/vue-headadmin.php");
+require("../vue/vue-indexadmin.php");
 ?>
 <?php
 //On démarre une nouvelle session
-session_start();
+
 
 
 //On définit des variables de session

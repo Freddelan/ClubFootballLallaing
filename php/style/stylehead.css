@@ -2,28 +2,55 @@
 
 /*Navigation*/
 body {
-    margin: 110px;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
     font-family: Avenir, sans-serif;
+    width: 100%;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
 header {
-    background-image: url(../Media/banniere_foot.jpg);
+    background: url(../Media/banniere_foot.jpg);
+
 }
 
+/* titre */
+h1 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    letter-spacing: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(249, 222, 4);
+    text-shadow: 2px 2px 5px grey, 0 0 25px blue, 0 0 5px darkblue;
+    margin-top: -100px;
+    padding-bottom: 70px;
+    margin-left: 300px;
+}
+
+/* logo */
+.imglogo {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+/* Navigation principale */
 nav {
     width: 100%;
     height: 40px;
     background-color: rgb(249, 222, 4);
+    opacity: 0.9;
     position: sticky;
     text-align: center;
+
 }
 
 nav ul {
     list-style-type: none;
     width: 100%;
+    box-shadow: 0px 15px 10px -5px #777;
 }
 
 nav ul li {
@@ -33,7 +60,7 @@ nav ul li {
     position: relative;
     border-radius: 5%;
     margin-left: 60px;
-    box-shadow: 0px 15px 10px -5px #777;
+
 }
 
 nav ul::after {
@@ -51,16 +78,16 @@ nav a {
 }
 
 nav a:hover {
-    color: #ecf546;
+    color: #69dea4;
     border-bottom: 1px solid black;
     background-color: black;
 }
 
 nav>ul li .sous {
     display: none;
-    box-shadow: 0px 1px 2px #CCC;
     background-color: white;
     position: absolute;
+    /** absolute **/
     width: 100%;
 }
 
@@ -75,79 +102,27 @@ nav>ul li:hover .sous {
 
 .sous ul li {
     text-align: left;
-
 }
 
 .sous a {
     padding: 10px;
     border-bottom: none;
-
 }
 
 .sous a:hover {
     border-bottom: none;
     background-color: RGBa(200, 200, 200, 0.1);
-
 }
-
 
 .deroulant>a::after {
     content: " ▼";
     font-size: 12px;
-
 }
-
-.conteneur {
-    margin: 50px 20px;
-    height: 1500px;
-    box-shadow: 0px 15px 10px -5px #777;
-}
-
-/* logo */
-.imglogo {
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    border-radius: 50%;
-    box-shadow: 0px 15px 10px -5px #777;
-
-}
-
-
-
-/*.ballon1 {
-    width: 50px;
-    height: 49px;
-    position: absolute;
-    margin-left: -650px;
-    margin-top: -10px
-}
-
-/*.ballon2 {
-    
-    width: 350px;
-    height: 349px;
-    margin-left: -150px;
-    margin-top: -100px
-}*/
 
 .ballon3 {
     width: 50px;
     height: 49px;
     position: absolute;
-    margin-left: 450px;
+    margin-left: 550px;
     margin-top: -10px;
-}
-
-/* titre */
-h1 {
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    letter-spacing: 20px;
-    font-size: 30px;
-    font-weight: normal;
-    color: rgb(249, 222, 4);
-    text-shadow: 2px 2px 5px grey, 0 0 25px blue, 0 0 5px darkblue;
-    margin-top: -100px;
-    padding-bottom: 70px;
-    margin-left: 300px;
 }

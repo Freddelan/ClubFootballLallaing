@@ -1,7 +1,18 @@
 <?php
+//On démarre une nouvelle session
+
+
+
+//On définit des variables de session
+
+$_SESSION['nom'] = 'admin';
+$_SESSION['password'] = 'admin';
+echo '<br /><a href="indexadmin.php?"></a>';
+?>
+<?php
 
 if ($_GET['prodId'] == 'ajoutart') {
-    
+    var_dump('proId');
     $nouvauxart=$_GET;
     $cnx->exec("alter table article auto_increment = 0");
     $cnx->exec("INSERT INTO article (lesume, titre_article, date_ , ref_image , contenue_art) 

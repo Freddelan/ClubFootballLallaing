@@ -2,43 +2,21 @@
 
 .autreMenu ul {
     list-style: none;
-    text-align: left;
-    margin-left: -13%;
-    padding-left: 5px;
+    text-align: center;
+    margin-top: 5px;
     display: flex;
-    position: sticky;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    width: 80%;
-
+    width: 100%;
+    float: center;
+    text-align: center;
+    /*     border-radius: 5%;
+    box-shadow: 0px 15px 10px -5px #777; */
 }
 
 .autreMenu li {
     padding: 26px 30px;
-}
-
-h3 {
-    /*titre Autre Menu*/
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    letter-spacing: 2px;
-
-}
-
-.Sidebar {}
-
-aside {
-    float: right;
-    width: 315px;
-    border: 1px solid #D8D8D8;
-    padding: 20px 20px 20px 20px;
-    margin: 20px 0;
-    background: rgba(255, 255, 255, 0.86);
-}
-
-feuille de style user-agent aside {
-    display: block;
 }
 
 .imgArt2 {
@@ -51,6 +29,7 @@ feuille de style user-agent aside {
 
 h2 {
     font-family: 'Roboto', sans-serif;
+    font-size: 30px;
 }
 
 .texte {
@@ -58,6 +37,7 @@ h2 {
     margin-top: 100px;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 div p {
@@ -76,4 +56,27 @@ div p {
 
 .Nous_trouver {
     text-align: center;
+}
+
+.actualite {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "article ."
+        "article ."
+        "article ."
+        "article ."
+        "article ."
+        "article ."
+        "article ."
+        "article ."
+        "article ."
+        "article .";
+}
+
+.actualite {
+    grid-area: article;
 }

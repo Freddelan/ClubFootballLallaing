@@ -4,7 +4,7 @@
                     
         ?>
         <div class="formulaire">
-                <form action="ajoutart.php?var=nouveau" method="get" id="ajoute">
+                <form action="" method="get" id="ajoute">
                         
                         
                     <h3 class="h3admin">Saisissez votre article</h3>
@@ -61,7 +61,7 @@
                 $donneescat = $reponsecat->fetchall(PDO::FETCH_OBJ);
         ?>
         <div class="formulaire">
-                <form id="check" action="ajoutart.php?var=sup_a" method="get">
+                <form id="check" action=ajoutart.php?var=sup_a" method="get">
                         <h3>désarchiver un article</h3>
                         <select name="article" id="Categorie" required>
                                                 <option value="">Choisissez un article</option>

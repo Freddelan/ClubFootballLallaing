@@ -1,4 +1,7 @@
 <?php 
-include ("connect.php");
-include ("headadmin.php");
+include ("../src/connect.php");
+require ("../src/model-AdminLallaing.php");
+include ("../vue/vue-headadmin.php");
+
+
 ?>
