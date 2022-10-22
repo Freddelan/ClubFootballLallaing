@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,22 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/stylehead.css">
-    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/contact.css">
-    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/index.css">
-    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/article_entier.css">
-    <link rel="stylesheet" type="text/css" href="/ClubFootLallaing/php/style/footer.css">
+    <link rel="stylesheet" type="text/css" href="/php/style/stylehead.css">
+    <link rel="stylesheet" type="text/css" href="/php/style/contact.css">
+    <link rel="stylesheet" type="text/css" href="/php/style/index.css">
+    <link rel="stylesheet" type="text/css" href="/php/style/article_entier.css">
+    <link rel="stylesheet" type="text/css" href="/php/style/footer.css">
     <title>D.C.L LALLAING</title>
 </head>
 <body>
+    
     <header>
-            <div class="logoPrin">
-             <img class="imglogo" src="/ClubFootLallaing/php/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
+        <section class="navbar-btn">
+                <button class="btn"><a href="#">Log in</a></button>
+    </section>
+        <div class="logoPrin">
+             <img class="imglogo" src="/php/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
             </div>
-            <div class="titre"><h1>Dynamic C. Lallaing</h1></div>
+        <div class="titre"><h1>Dynamic C. Lallaing</h1></div>
+    </header>
+        <section class="navbar-container">
+            <nav class="main-navbar">
+                <div class="dropdown">
+                    <button class="dropdown-btn">Accueil
+                    </button>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropdown-btn">Equipes
+                        <div class="content">
+                            <a href="#">U6-U7(5-6 ans)</a></li>
+                            <a href="#">U8-U9(7-8 ans)</a></li>
+                            <a href="#">U10(9 ans)</a></li>
+                            <a href="#">U11(10 ans)</a></li>
+                            <a href="#">U12-U13(11-12 ans)</a></li>
+                            <a href="#">U14-U15(13-14 ans)</a></li>
+                            <a href="#">Seniors</a></li>
+                        </div>
+                     </button>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropdown-btn">Photos
+                        <div class="content">
+                            <a href="#">U6-U7(5-6 ans)</a></li>
+                            <a href="#">U8-U9(7-8 ans)</a></li>
+                            <a href="#">U10(9 ans)</a></li>
+                            <a href="#">U11(10 ans)</a></li>
+                            <a href="#">U12-U13(11-12 ans)</a></li>
+                            <a href="#">U14-U15(13-14 ans)</a></li>
+                            <a href="#">Seniors</a></li>
+                        </div>
+                     </button>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropdown-btn">Calendrier
+                        <div class="content">
+                            <a href="#">U6-U7(5-6 ans)</a></li>
+                            <a href="#">U8-U9(7-8 ans)</a></li>
+                            <a href="#">U10(9 ans)</a></li>
+                            <a href="#">U11(10 ans)</a></li>
+                            <a href="#">U12-U13(11-12 ans)</a></li>
+                            <a href="#">U14-U15(13-14 ans)</a></li>
+                            <a href="#">Seniors</a></li>
+                        </div>
+                     </button>
+                </div>
+           
+                <button><a href="#">Contact</a></button>
+                
+
+            </nav>
+                </section>
+
+                <section class="second-navabar-container">
+                    <nav class="sub-navbar">
+                        <button><a href="#">Les entraineurs</a></button>
+                        <button><a href="#">Réseaux sociaux</a></button>
+                        <button><a href="#">Etre partenaire de l'equipe</a></button>
+                    </nav>
+                </section>
+            
+        </section>
+            
           <!-- <img class="ballon2" src="media/ballon2.png" alt="image de ballon">-->
-            <nav class="container">   <!--<img class="ballon1" src="media/ballon1.png" alt="image de ballon">-->
-                <img class="ballon3" src="/ClubFootLallaing/php/media/ballon1.png" alt="image de ballon">
+            <!-- <nav class="container">   <!--<img class="ballon1" src="media/ballon1.png" alt="image de ballon">-->
+                <!-- <img class="ballon3" src="/ClubFootLallaing/php/media/ballon1.png" alt="image de ballon">
                     <ul class="section-menu">
                         <li class="accueil">
                             <a href="/ClubFootLallaing/php/index.php">Accueil</a>
@@ -64,9 +133,9 @@
                                 </ul>
                         </li>
                         <li><a href="/ClubFootLallaing/php/controler/controler-contact.php">Contact</a></li>
-                    </ul>
+                    </ul> -->
         </nav>
-    </header>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!--<script src="script.js"></script>-->
 

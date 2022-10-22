@@ -1,4 +1,3 @@
-<!-- code pour afficher l'article -->
 <?php 
         require("src/model-connect.php");
         require("vue/head.php"); 
