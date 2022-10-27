@@ -2,10 +2,10 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-columns: 1.5fr 0.5fr 0.5fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 10px;
-    column-gap: 20px;
+    gap: 10px 10px;
+    column-gap: 10px 10px;
     grid-template-areas:
         "article anciens-articles"
         "article anciens-articles"
@@ -19,65 +19,51 @@
 
 }
 
+
+
 .perso,
 img .perso {
-    width: 250px;
-    height: 300px;
-    margin-left: 460px;
-    margin-top: -200px;
+    width: 100px;
+    height: 150px;
+    margin-left: 470px;
+    margin-top: -996px;
     z-index: 1;
 }
 
 .ballonRouge {}
 
 .ballon {
-    width: 70px;
-    height: 70px;
+    width: 20px;
+    height: 20px;
     position: absolute;
 }
 
 .ballon,
 img .ballonRouge {
-    max-height: 350px;
-    margin-left: 1100px;
-    margin-top: -225px;
+    /* max-height: 350px; */
+    margin-left: -2015px;
+    margin-top: -1010px;
     position: absolute;
     z-index: 3;
-    animation: rotation 4.5s infinite linear;
-    animation-delay: 50s;
+    animation: rotation 0.9s alternate infinite linear;
+    animation-delay: 5s;
+
 }
 
-@keyframes rotation {
+/* @keyframes rotation {
     0% {
-        transform: rotateX(360deg);
-        margin-top: -1050px;
-        margin-left: 1129px;
-
-    }
-
-
-    50% {
-        transform: rotateX(360deg);
-        margin-top: -560px;
-    }
-
-    60% {
-        transform: rotate(360deg);
-        margin-top: -260px;
-    }
 
 
 
-    /* 50% {
-        transform: rotate(100deg);
-        margin-top: 800px;
+        bottom: 100%
     }
 
     100% {
-        transform: rotate(0deg);
-        margin-top: -100px;
-    } */
-}
+
+
+        /* bottom: 42%; 
+    }
+}*/
 
 .title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -86,32 +72,49 @@ img .ballonRouge {
 
 }
 
+/* .conteneurArticle {
+    border: solid 1px rgb(85, 84, 84);
+    border-bottom: ;
+} */
+
 .article {
-    width: 70%;
+    width: 87%;
     grid-area: article;
     margin-left: 80px;
     /* border: 3px solid#F9DE04; */
-    background-color: #ECF0F1;
+    background-color: #f3f0f0;
+    border-bottom:
 
 }
 
 .texte {
+    font-family: 'Fira Sans', sans-serif;
     width: 35%;
-    margin-left: 50%;
+    margin-left: 10%;
     margin-top: 50px;
+
 }
 
 .author-name {
     margin-left: 400px;
 }
 
+.classement {
+    width: 39%;
+    grid-area: article;
+    margin-left: 800px;
+    /* border: 3px solid#F9DE04; */
+    background-color: #f3f0f0;
+
+}
+
 .anciens-articles {
     grid-area: anciens-articles;
-    column-gap: 20px;
+
     /* border: 3px solid#F9DE04; */
-    margin-right: 25px;
-    background-color: #fffffe;
-    width: 100%;
+    margin-left: 330px;
+    background-color: #f3f0f0;
+    width: 55%;
 }
 
 .recent-img {
@@ -119,7 +122,7 @@ img .ballonRouge {
     width: 140 px;
     border-radius: 15%;
     margin-top: -70px;
-    margin-left: 12%;
+    margin-left: 350px;
 }
 
 .recent-imgAncien {
@@ -129,9 +132,9 @@ img .ballonRouge {
 }
 
 .block-article {
-    border-bottom: 1px solid black;
-    text-align: center;
 
+    text-align: center;
+    border-bottom: solid 1px rgb(85, 84, 84);
 }
 
 .anciens-articles {
@@ -145,7 +148,11 @@ img .ballonRouge {
 
 .date {
     margin-top: -37px;
-    margin-left: 80px;
+    margin-left: 10px;
+}
+
+.dateArticle {
+    margin-left: 5px;
 }
 
 

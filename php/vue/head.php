@@ -84,17 +84,13 @@
                         </button>
                     
                         <!-- <button class="dropdown-btn"><a href="/php/controler/controler-contact.php">Etre partenaire de l'equipe</a></button> -->
-</div>
+</div><i class="fa-solid fa-futbol">
             </nav>
                 </section>
 
-                <section class="second-navabar-container">
-                    <nav class="sub-navbar">
-                        
-                    </nav>
-                </section>
+                
             
-        </section>
+       
             
           <!-- <img class="ballon2" src="media/ballon2.png" alt="image de ballon">-->
             <!-- <nav class="container">   <!--<img class="ballon1" src="media/ballon1.png" alt="image de ballon">-->
