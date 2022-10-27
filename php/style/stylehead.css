@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
 /*Navigation*/
-/* body {
+body {
     margin-top: 0px;
     margin-left: 0px;
     font-family: Avenir, sans-serif;
-    width: 100%;
+    width: 1600px;
     scroll-behavior: smooth;
     overflow-x: hidden;
-}*/
+}
 
 header {
     background: url(../Media/joueur-de-football.webp);
 
-
 }
 
 /* titre */
-.titre {
+h1 {
     font-family: 'Trebuchet MS', Arial, sans-serif;
     letter-spacing: 20px;
     font-size: 30px;
@@ -27,6 +26,7 @@ header {
     margin-top: -100px;
     padding-bottom: 70px;
     margin-left: 400px;
+    margin-top: 20px;
 }
 
 /* logo */
@@ -36,6 +36,7 @@ header {
     border: 1px solid black;
     border-radius: 50%;
     margin-top: 40px;
+    opacity: 1;
 }
 
 /* Navigation principale */
@@ -130,18 +131,18 @@ nav>ul li:hover .sous {
 } */
 
 
-* {
+/* * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-}
+} */
 
 
-.blog-container {
+/* .blog-container {
     margin-left: 20px;
     margin-right: 20px;
-}
+} */
 
 
 button {
@@ -166,16 +167,20 @@ a {
 
 
 .navbar-container {
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     border-bottom: solid rgb(168, 168, 168) 1px;
+    margin-left: 83px;
+    margin-right: 100px;
 }
 
 
 .main-navbar {
     display: flex;
     justify-content: flex-start;
+
 }
 
 
@@ -193,6 +198,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
+
 }
 
 
@@ -228,6 +234,7 @@ button {
 
 
 .content {
+
     display: none;
     position: absolute;
     background-color: #aa0000;
@@ -267,6 +274,7 @@ button {
 
 
 .second-navabar-container {
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
@@ -279,8 +287,15 @@ button {
     justify-content: flex-start;
 }
 
+div #contact {
+    margin-left: 950px;
+    margin-top: -30px;
 
-.blog-container {
+}
+
+
+
+/* .blog-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 15px;
@@ -370,7 +385,7 @@ img {
 
 /* media queries */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 
     .navbar-container,
     .second-navabar-container {
@@ -397,4 +412,4 @@ img {
     .article-content {
         font-size: 14px;
     }
-}
+}  */

@@ -7,17 +7,22 @@
 require('connexionbdd2.php');
 
 if(isset($_POST['envoi'])){
-    if(!empty($_POST['titre']) && !empty($_POST['resume']) && !empty($_POST['contenu']) && !empty($_POST['date_de_publication']) && !empty($_POST['Image']) && isset($_POST['archive'])){
+    if(isset($_POST['archive'])){
+        $archive= 1;
+    }else{
+        $archive= 0;
+    }
+    if(!empty($_POST['titre']) && !empty($_POST['resume']) && !empty($_POST['contenu']) && !empty($_POST['date_de_publication']) && !empty($_POST['Image'])){
         $titre= htmlspecialchars($_POST['titre']);
         $resume= nl2br(htmlspecialchars($_POST['resume']));
         $contenu= nl2br(htmlspecialchars($_POST['contenu']));
         $datepub= date(htmlspecialchars($_POST['date_de_publication']));
         $image= ($_POST['Image']);
-        $archive= htmlspecialchars($_POST['archive']);
+        
 
-        $insererArticle = $conn->prepare('INSERT INTO article(titre_article, lesume, contenue_art, date_, ref_image)VALUES(?, ?, ?, ?, ?)');
+        $insererArticle = $conn->prepare('INSERT INTO article(titre_article, lesume, contenue_art, date_, ref_image, archive)VALUES(?, ?, ?, ?, ?, ?)');
 
-        $insererArticle->execute(array($titre, $resume, $contenu, $datepub, $image));
+        $insererArticle->execute(array($titre, $resume, $contenu, $datepub, $image, $archive));
 
         echo "Votre article figure sur votre site !!";
 
@@ -25,7 +30,7 @@ if(isset($_POST['envoi'])){
         echo "Veuillez compléter tous les champs...";
 
     }
-    var_dump($_POST);
+    
 }
 ?>
 <!DOCTYPE html>

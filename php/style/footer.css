@@ -31,3 +31,14 @@ footer {
 .justify-content-center {
     justify-content: center !important;
 }
+
+.site-footer {
+    width: 100%;
+    height: 80px;
+}
+
+.copy {
+    color: #555d65;
+    text-align: right;
+
+}

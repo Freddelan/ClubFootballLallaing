@@ -1,4 +1,4 @@
-<?php
+ <?php
  session_start();
  $bdd = new PDO('mysql:host=localhost;dbname=connexion_admin;', 'root', 'paradoxe0311');
  if(!$_SESSION['mdp']){
@@ -31,4 +31,4 @@ require('connexionbdd2.php');
             ?>
 
     </body>
-</html>
+</html> 

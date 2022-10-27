@@ -1,17 +1,10 @@
-<main class="container">
-  <section class="article_entier">
-    <section class="main-title">
-      <h2 class="title"><?=$donneescat[0][2]?>
+ <section class="entier">
+      <h2 class="titreEntier"><?=$donneescat[0][2]?>
       </h2>
-    </section>
-
-    <section class=blog-article">
-         <section class="tailleIm">
-            <img    class="imgArt2" src="../media/<?=$donneescat[0][5]?>" alt="">
+   
+            <div><img class="imgArt3" src="../media/<?=$donneescat[0][5]?>" alt="">
+            <p class="texteEntier"><?=$donneescat[0][3]?> </p></div>
           
-            <p> <?=$donneescat[0][3]?> </p>
-          <section class="author">
-            <p class="author-name"></p>
-    </section>
-  </section>
-</main>
+            <p class="auteur">Hugo Langlois</p>
+            <hr>
+</section>

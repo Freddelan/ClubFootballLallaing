@@ -1,99 +1,100 @@
-* {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
+ /* CSS VUE-INDEX.PHP */
+
+ /* * {
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+ }
 
 
-.blog-container {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+ .blog-container {
+     margin-left: 20px;
+     margin-right: 20px;
+ }
 
-.main-title {
-    padding: 5px;
-}
-
-
-.title {
-    font-family: sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-}
+ .main-title {
+     padding: 5px;
+ }
 
 
-.blog-article {
-    grid-column-start: 1;
-}
+ .titreEntier {
+     font-family: sans-serif;
+     font-size: 40px;
+     font-weight: bold;
+ }
 
 
-img {
-    max-width: 100%;
-}
+ .blog-article {
+     grid-column-start: 1;
+ }
 
 
-.blog-article p {
-    font-size: 14px;
-    color: #34384D;
-    line-height: 1.5;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
+ img {
+     max-width: 100%;
+ }
 
 
-.article-title {
-    padding: 10px;
-}
+ .blog-article p {
+     font-size: 14px;
+     color: #34384D;
+     line-height: 1.5;
+     padding-left: 10px;
+     padding-bottom: 10px;
+ }
 
 
-.recent {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0px;
-}
+ .article-title {
+     padding: 10px;
+ }
 
 
-.article-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
+ .recent {
+     display: flex;
+     flex-direction: column;
+     margin: 10px 0px;
+ }
 
 
-.recent-img {
-    width: 400px;
-    height: 150px;
-    margin-bottom: 20px;
-}
+ .article-content {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin-bottom: 20px;
+ }
 
 
-.recent-article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-}
+ .recent-img {
+     width: 400px;
+     height: 150px;
+     margin-bottom: 20px;
+ }
 
 
-
-.author-img {
-    width: 2.5rem;
-    height: 2.5rem;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-
-.author-name {
-    font-size: 12px;
-    font-weight: bold;
-}
+ .recent-article {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     column-gap: 20px;
+ }
 
 
 
-/* media queries */
+ .author-img {
+     width: 2.5rem;
+     height: 2.5rem;
+     object-fit: cover;
+     border-radius: 50%;
+ } */
 
-@media screen and (max-width: 600px) {
+
+ .author-name {
+     font-size: 12px;
+     font-weight: bold;
+ }
+
+ */
+ /* media queries */
+
+ /* @media screen and (max-width: 600px) {
 
     .blog-container {
         display: flex;
@@ -107,4 +108,4 @@ img {
     .article-content {
         font-size: 14px;
     }
-}
+} */

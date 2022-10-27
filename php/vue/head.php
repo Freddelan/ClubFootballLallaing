@@ -17,7 +17,7 @@
     
     <header>
         <section class="navbar-btn">
-                <button class="btn"><a href="#">Log in</a></button>
+                <button class="btn"><a href="/admin/vue/connexion.php">Log in</a></button>
     </section>
         <div class="logoPrin">
              <img class="imglogo" src="/php/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
@@ -27,12 +27,12 @@
         <section class="navbar-container">
             <nav class="main-navbar">
                 <div class="dropdown">
-                    <button class="dropdown-btn">Accueil
+                    <button class="dropdown-btn"><a href="/php/index.php">Accueil</a>
                     </button>
                 </div>
 
                 <div class="dropdown">
-                    <button class="dropdown-btn">Equipes
+                    <button class="dropdown-btn"><a href="/php/vue/equipes.php">Equipes</a>
                         <div class="content">
                             <a href="#">U6-U7(5-6 ans)</a></li>
                             <a href="#">U8-U9(7-8 ans)</a></li>
@@ -46,8 +46,8 @@
                 </div>
 
                 <div class="dropdown">
-                    <button class="dropdown-btn">Photos
-                        <div class="content">
+                    <button class="dropdown-btn"><a href="/php/vue/photos.php">Photos
+                        <!-- <div class="content">
                             <a href="#">U6-U7(5-6 ans)</a></li>
                             <a href="#">U8-U9(7-8 ans)</a></li>
                             <a href="#">U10(9 ans)</a></li>
@@ -55,13 +55,13 @@
                             <a href="#">U12-U13(11-12 ans)</a></li>
                             <a href="#">U14-U15(13-14 ans)</a></li>
                             <a href="#">Seniors</a></li>
-                        </div>
+                        </div> -->
                      </button>
                 </div>
 
                 <div class="dropdown">
-                    <button class="dropdown-btn">Calendrier
-                        <div class="content">
+                    <button class="dropdown-btn"><a target="_blank" href="https://escaut.fff.fr/recherche-clubs?scl=789">Calendrier
+                        <!-- <div class="content">
                             <a href="#">U6-U7(5-6 ans)</a></li>
                             <a href="#">U8-U9(7-8 ans)</a></li>
                             <a href="#">U10(9 ans)</a></li>
@@ -69,21 +69,28 @@
                             <a href="#">U12-U13(11-12 ans)</a></li>
                             <a href="#">U14-U15(13-14 ans)</a></li>
                             <a href="#">Seniors</a></li>
-                        </div>
+                        </div> -->
                      </button>
-                </div>
-           
-                <button><a href="#">Contact</a></button>
                 
-
+           
+                    <div id="contact"><button class="dropdown-btn" ><a class="contact" href="/php/controler/controler-contact.php">Contact</a></button></div>
+                    <!-- <button class="dropdown-btn"><a href="#">Les entraineurs</a></button> -->
+                        <!-- <div class="dropdown"> -->
+                        <!-- <button class="dropdown-btn"><a href="#">Réseaux sociaux -->
+                            <!-- <div class="content"> -->
+                                <!-- <a  target="_blanck" href="https://www.facebook.com/profile.php?id=100057582574036">Facebook</a></li>
+                                <a target="_blank" href="https://www.instagram.com/dclallaing_off/?hl=fr">Instagram</a></li> -->
+                            <!-- </div> -->
+                        </button>
+                    
+                        <!-- <button class="dropdown-btn"><a href="/php/controler/controler-contact.php">Etre partenaire de l'equipe</a></button> -->
+</div>
             </nav>
                 </section>
 
                 <section class="second-navabar-container">
                     <nav class="sub-navbar">
-                        <button><a href="#">Les entraineurs</a></button>
-                        <button><a href="#">Réseaux sociaux</a></button>
-                        <button><a href="#">Etre partenaire de l'equipe</a></button>
+                        
                     </nav>
                 </section>
             
