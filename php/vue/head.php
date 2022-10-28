@@ -13,15 +13,17 @@
     <link rel="stylesheet" type="text/css" href="/php/style/footer.css">
     <title>D.C.L LALLAING</title>
 </head>
+<section class="navbar-btn">
+                <button class="btn"><a href="/admin/vue/connexion.php">Log in</a></button>
+    </section>
 <body>
     
     <header>
-        <section class="navbar-btn">
-                <button class="btn"><a href="/admin/vue/connexion.php">Log in</a></button>
-    </section>
+        
+        
         <div class="logoPrin">
              <img class="imglogo" src="/php/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
-            </div>
+        </div>
         <div class="titre"><h1>Dynamic C. Lallaing</h1></div>
     </header>
         <section class="navbar-container">
@@ -84,7 +86,7 @@
                         </button>
                     
                         <!-- <button class="dropdown-btn"><a href="/php/controler/controler-contact.php">Etre partenaire de l'equipe</a></button> -->
-</div><i class="fa-solid fa-futbol">
+</div>
             </nav>
                 </section>
 

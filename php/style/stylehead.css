@@ -13,7 +13,10 @@ body {
 }
 
 header {
-    background: url(../Media/joueur-de-football.webp);
+    background: url(../Media/bandeau8.png);
+    height: 200px;
+
+
 
 }
 
@@ -21,25 +24,25 @@ header {
 h1 {
     font-family: 'Trebuchet MS', Arial, sans-serif;
     letter-spacing: 20px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: normal;
     color: rgb(249, 222, 4);
-    text-shadow: 2px 2px 5px grey, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    text-shadow: 2px 2px 5px black, 0 0 25px blue, 0 0 5px darkblue;
     margin-top: -100px;
-    padding-bottom: 70px;
-    margin-left: 400px;
-    margin-top: 20px;
+
+
 }
 
 /* logo */
 .imglogo {
 
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border: 1px solid black;
     border-radius: 50%;
-    margin-top: 40px;
-    opacity: 1;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 /* Navigation principale */
@@ -173,7 +176,7 @@ a {
 
 
 .dropdown-btn {
-    color: #34384D;
+    background-color: #3ED8F4;
     padding: 5px;
     font-size: 14px;
     border: none;
@@ -191,7 +194,7 @@ a {
 
 
 .btn {
-    border: solid 1px #c7c7c7;
+    border: solid 1px #3ED8F4;
     border-radius: 20px;
 
 }
@@ -206,13 +209,13 @@ button {
 }
 
 .active-btn {
-    background-color: #34384D;
+    /* background-color: #3ED8F4; */
     border: none;
 }
 
 
 .active-btn:hover {
-    background-color: chocolate;
+    background-color: #3ED8F4;
 }
 
 
@@ -225,14 +228,13 @@ button {
 
     display: none;
     position: absolute;
-    background-color: #aa0000;
     min-width: 100px;
     z-index: 1;
 }
 
 
 .content a {
-    color: #34384D;
+    color: #3ED8F4;
     display: flex;
     line-height: 2;
     padding: 0 10px;
@@ -241,7 +243,7 @@ button {
 
 
 .content a:hover {
-    background-color: #a5f5eea6;
+    background-color: #d4e89d;
 }
 
 
@@ -275,7 +277,7 @@ button {
 
 div #contact {
     margin-left: 950px;
-    margin-top: -30px;
+    margin-top: -26px;
 
 }
 
@@ -284,6 +286,9 @@ div #contact {
     font-family: 'Fira Sans', sans-serif;
 }
 
+.dropdown {
+    margin-right: 5px;
+}
 
 
 /* .blog-container {
