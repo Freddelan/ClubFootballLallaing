@@ -62,13 +62,7 @@
                                ?>
         </aside>
 
-           <!-- <div class="animation">
-                <div class="ballonRouge">
-                        <img class="ballon" src="media/Ballonrouge.png" alt="ballon" />
-                </div>
-                <div class="perso">
-                        <img class="perso" src="media/perso.jpg" alt="perso" />
-                </div> --> 
+          
 </main>
                         <hr class='ligne'>
                 <div class="Nous_trouver">Nous trouver...

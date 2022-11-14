@@ -1,6 +1,6 @@
  /* CSS VUE-INDEX.PHP */
 
- /* * {
+     {
      box-sizing: border-box;
      margin: 0px;
      padding: 0px;
@@ -83,10 +83,9 @@
      height: 2.5rem;
      object-fit: cover;
      border-radius: 50%;
- } */
+ }
 
-
- .author-name {
+ */ .author-name {
      font-size: 12px;
      font-weight: bold;
  }

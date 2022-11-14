@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/php/style/stylehead.css">
     <link rel="stylesheet" type="text/css" href="/php/style/contact.css">
     <link rel="stylesheet" type="text/css" href="/php/style/index.css">
-    <!-- <link rel="stylesheet" type="text/css" href="/php/style/article_entier.css"> -->
+    <link rel="stylesheet" type="text/css" href="/php/style/article_entier.css"> 
     <link rel="stylesheet" type="text/css" href="/php/style/footer.css">
     <title>D.C.L LALLAING</title>
 </head>
@@ -21,7 +21,7 @@
     <header>
         
         <div class="logoPrin">
-             <img class="imglogo" src="/php/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
+             <img class="imglogo" src="Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
         </div>
         <div class="titre"><h1>Dynamic C. Lallaing</h1></div>
     </header>
