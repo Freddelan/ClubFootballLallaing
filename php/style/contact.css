@@ -8,7 +8,7 @@ h2 {
     display: block;
     position: relative;
     margin-left: 43%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 label {
@@ -27,8 +27,12 @@ label {
     margin: 0 0 15px;
 }
 
-.form-control,
-.btn {
+
+.form-group {
     min-height: 38px;
     border-radius: 2px;
+}
+
+#form1 {
+    background: url(/php/Media/Ballon.png)no-repeat;
 }

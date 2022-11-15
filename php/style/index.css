@@ -74,17 +74,17 @@ animation-delay: 5s;
 
 }
 
-/* .conteneurArticle {
+.conteneurArticle {
     border: solid 1px rgb(85, 84, 84);
     border-bottom: ;
-} */
+}
 
 .article {
-    width: 87%;
+    width: 30%;
     grid-area: article;
     margin-left: 80px;
-    /* border: 3px solid#F9DE04; */
-    background-color: #f3f0f0;
+    /* border: 3px solid#F9DE04;
+    background-color: #f3f0f0; */
     border-bottom:
 }
 
@@ -103,8 +103,8 @@ animation-delay: 5s;
 .classement {
     width: 39%;
     grid-area: article;
-    margin-left: 800px;
-    /* border: 3px solid#F9DE04; */
+    margin-left: 900px;
+    border: 3px solid#F9DE04;
     background-color: #f3f0f0;
 
 }
@@ -112,7 +112,7 @@ animation-delay: 5s;
 .anciens-articles {
     grid-area: anciens-articles;
 
-    /* border: 3px solid#F9DE04; */
+    /border: 3px solid#F9DE04;
     margin-left: 330px;
     background-color: #f3f0f0;
     width: 55%;

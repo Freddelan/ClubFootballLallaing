@@ -71,13 +71,20 @@
                             <a href="#">U14-U15(13-14 ans)</a></li>
                             <a href="#">Seniors</a></li>
                         </div> -->
-                     </button>
+                     </button> 
+                </div>
                 
-           
-                    <div id="contact">
-                        <button class="dropdown-btn" ><a class="contact" href="/php/controler/controler-contact.php">Contact</a></button></div>
+                <div class="dropdown">
+                        <button class="dropdown-btn"><a class="boutique" href="#">Boutique</a>
                         </button>
-                    
+                </div>
+                <div id="contact" class="dropdown"> 
+                        <button class="dropdown-btn"><a class="dirigeant" href="#">Staff</a></button>
+                </div>
+                <div class="dropdown">
+                        <button class="dropdown-btn" ><a class="contact" href="/php/controler/controler-contact.php">Contact</a></button>
+                        
+                       
                         <!-- <button class="dropdown-btn"><a href="/php/controler/controler-contact.php">Etre partenaire de l'equipe</a></button> -->
                 </div>
             </nav>
