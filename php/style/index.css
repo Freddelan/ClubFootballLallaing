@@ -2,10 +2,10 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr 0.5fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px 10px;
-    column-gap: 10px 10px;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    column-gap: 10px;
     grid-template-areas:
         "article anciens-articles"
         "article anciens-articles"
@@ -18,54 +18,6 @@
     /* border: 2px solid #F9DE04; */
 
 }
-
-
-
-/* .perso,
-img .perso {
-    width: 100px;
-    height: 150px;
-    margin-left: 470px;
-    margin-top: -996px;
-    z-index: 1;
-}
-
-.ballonRouge {}
-
-.ballon {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-} */
-
-/* .ballon,
-img .ballonRouge {
-    /* max-height: 350px; 
-
-margin-left: -2015px;
-margin-top: -1010px;
-position: absolute;
-z-index: 3;
-animation: rotation 0.9s alternate infinite linear;
-animation-delay: 5s;
-
- } /*
-
-*/
-/* @keyframes rotation {
-    0% {
-
-
-
-        bottom: 100%
-    }
-
-    100% {
-
-
-        /* bottom: 42%; 
-    }
-}*/
 
 .title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -80,7 +32,7 @@ animation-delay: 5s;
 }
 
 .article {
-    width: 30%;
+    width: 50%;
     grid-area: article;
     margin-left: 80px;
     /* border: 3px solid#F9DE04;
@@ -115,20 +67,20 @@ animation-delay: 5s;
     /border: 3px solid#F9DE04;
     margin-left: 330px;
     background-color: #f3f0f0;
-    width: 55%;
+    width: 30%;
 }
 
 .recent-img {
     height: 200px;
-    /* width: 140px;
+    width: 140 px;
     /* border-radius: 15%; */
     margin-top: -70px;
     margin-left: 350px;
 }
 
 .recent-imgAncien {
-    /* height: 200px;
-    width: 140px; */
+    height: 200px;
+    width: 140px;
     margin-left: 80px
 }
 

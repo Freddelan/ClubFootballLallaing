@@ -24,19 +24,7 @@
                                 ?>
                                 
         </aside> 
-
-        <aside class="classement">
-
-                        <?php
-                        for ($i=0 ; $i < count($donneesarc); $i++){
-                        
-                        ?>  
-                        <?php
-                                
-                        }
-                               ?>
-        </aside>
-                
+  
         <aside class="anciens-articles">
                 <?php
                 for ($i=0 ; $i < count($donneesarc); $i++){

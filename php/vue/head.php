@@ -62,15 +62,7 @@
 
                 <div class="dropdown">
                     <button class="dropdown-btn"><a target="_blank" href="https://escaut.fff.fr/recherche-clubs?scl=789">Calendrier
-                        <!-- <div class="content">
-                            <a href="#">U6-U7(5-6 ans)</a></li>
-                            <a href="#">U8-U9(7-8 ans)</a></li>
-                            <a href="#">U10(9 ans)</a></li>
-                            <a href="#">U11(10 ans)</a></li>
-                            <a href="#">U12-U13(11-12 ans)</a></li>
-                            <a href="#">U14-U15(13-14 ans)</a></li>
-                            <a href="#">Seniors</a></li>
-                        </div> -->
+                       
                      </button> 
                 </div>
                 
@@ -78,28 +70,34 @@
                         <button class="dropdown-btn"><a class="boutique" href="#">Boutique</a>
                         </button>
                 </div>
-                <div id="contact" class="dropdown"> 
+                <div class="dropdown"> 
                         <button class="dropdown-btn"><a class="dirigeant" href="#">Staff</a></button>
                 </div>
-                <div id="classement" class="dropdown"> 
-                        <button class="dropdown-btn"><a  href="#">Classement</a></button>
+                <div class="dropdown"> 
+                        <button class="dropdown-btn"><a  href="#">Classement
+                             <div class="content">
+                            <a href="#">U6-U7(5-6 ans)</a></li>
+                            <a href="#">U8-U9(7-8 ans)</a></li>
+                            <a href="#">U10(9 ans)</a></li>
+                            <a href="#">U11(10 ans)</a></li>
+                            <a href="#">U12-U13(11-12 ans)</a></li>
+                            <a href="#">U14-U15(13-14 ans)</a></li>
+                            <a href="#">Seniors</a></li>
+                        </div> 
+                        </a></button>
                 </div>
                 <div class="dropdown">
-                        <button class="dropdown-btn" ><a class="contact" href="/php/controler/controler-contact.php">Contact</a></button>
-                        
-                       
-                        <!-- <button class="dropdown-btn"><a href="/php/controler/controler-contact.php">Etre partenaire de l'equipe</a></button> -->
+                        <button class="dropdown-btn" ><a class="contact" href="/php/controler/controler-contact.php">Contact</a>
+                        </button> 
                 </div>
             </nav>
         </section>
-
-        </nav>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!--<script src="script.js"></script>-->
+    <script src="script.js"></script>
 
     <!-- Fonction pour faire apparaitre la navbarre en noir au scroll -->
-    <!--<script>
+    <script>
         $(window).scroll(function () {
             if ($(document).scrollTop() > 50) {
                 $('.nav').addClass('affix');
@@ -109,4 +107,4 @@
             }
         })
     </script>
-    <script src="script.js"></script>-->
+    <script src="script.js"></script>-

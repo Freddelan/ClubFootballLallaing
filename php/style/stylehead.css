@@ -14,8 +14,8 @@ body {
 }
 
 header {
-    background-image: url(../Media/stade.jpg);
-    height: 400px;
+    background: url(../Media/stadelallaing.png)no-repeat;
+    height: 350px;
     width: 1800px;
 }
 
@@ -28,9 +28,8 @@ h1 {
     color: rgb(249, 222, 4);
     text-align: center;
     text-shadow: 2px 2px 5px black, 0 0 25px blue, 0 0 5px darkblue;
-    margin-top: -50px;
-
-
+    margin-top: -140px;
+    margin-left: 200px;
 }
 
 /* logo */
@@ -39,11 +38,11 @@ h1 {
     width: 120px;
     height: 120px;
     margin-top: 30px;
-    margin-left: 70px;
+    margin-left: 20px;
 }
 
 button {
-    width: 100px;
+
     border: none;
     background-color: #fff;
     border-radius: 10px;
@@ -69,8 +68,8 @@ a {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     border-bottom: solid rgb(168, 168, 168) 1px;
-    margin-left: 83px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 280px;
 }
 
 
@@ -82,10 +81,7 @@ a {
 
 
 .dropdown-btn {
-    /* background-color: whitesmoke; */
-    /* padding: 5px; */
-    /* font-size: 14px; */
-    /* border: none; */
+
     cursor: pointer;
     font-weight: 600;
     font-weight: bold;
@@ -96,13 +92,6 @@ a {
     -moz-box-shadow: inset #fafafa 0px 5px 8px -1px, #a8a8a8 0px 4px 0px;
     -webkit-box-shadow: inset #fafafa 0px 5px 8px -1px, #a8a8a8 0px 4px 0px;
     background: #eeeeee;
-    /* background: -o-linear-gradient(90deg, #eeeeee, #e1e1e1);
-    background: -moz-linear-gradient(center top, #eeeeee 5%, #e1e1e1 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eeeeee), color-stop(1, #e1e1e1));
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#e1e1e1');
-    background: -webkit-linear-gradient(#eeeeee, #e1e1e1);
-    background: -ms-linear-gradient(#eeeeee, #e1e1e1);
-    background: linear-gradient(#eeeeee, #e1e1e1); */
     text-indent: 0px;
     line-height: 0px;
     -moz-border-radius: 3px;
@@ -113,7 +102,7 @@ a {
     display: inline-block;
     font-size: 12px;
     color: #696969;
-    width: 95px;
+    width: 120px;
     height: 0px;
     padding: 13px;
     border-color: #e1e1e1;
@@ -133,7 +122,8 @@ a {
 .btn {
     border: solid 1px whitesmoke;
     border-radius: 20px;
-
+    margin-right: 100px;
+    margin-left: 1090px;
 }
 
 
