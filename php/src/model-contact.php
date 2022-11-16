@@ -9,7 +9,7 @@
             $mail=$_POST["user_mail"];
             $objet=$_POST["objet"];
             $msgutilisateur = $_POST["user_message"];
-            $message=' 
+            $message='
                         Nom de l\'expéditeur: '.$nom.'
                         Mail de l\'expéditeur: '.$mail.'
                         '.$msgutilisateur.'

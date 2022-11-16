@@ -21,14 +21,14 @@
     <header>
         
         <div class="logoPrin">
-             <img class="imglogo" src="Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
+             <img class="imglogo" src="//d.c.lallaing/php/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
         </div>
         <div class="titre"><h1>Dynamic C. Lallaing</h1></div>
     </header>
         <section class="navbar-container">
             <nav class="main-navbar">
                 <div class="dropdown">
-                    <button class="dropdown-btn"><a href="/php/index.php">Accueil</a>
+                    <button class="dropdown-btn"><a href="//d.c.lallaing">Accueil</a>
                     </button>
                 </div>
 
@@ -80,6 +80,9 @@
                 </div>
                 <div id="contact" class="dropdown"> 
                         <button class="dropdown-btn"><a class="dirigeant" href="#">Staff</a></button>
+                </div>
+                <div id="classement" class="dropdown"> 
+                        <button class="dropdown-btn"><a  href="#">Classement</a></button>
                 </div>
                 <div class="dropdown">
                         <button class="dropdown-btn" ><a class="contact" href="/php/controler/controler-contact.php">Contact</a></button>

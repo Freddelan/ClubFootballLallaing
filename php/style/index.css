@@ -120,15 +120,15 @@ animation-delay: 5s;
 
 .recent-img {
     height: 200px;
-    width: 140 px;
+    /* width: 140px;
     /* border-radius: 15%; */
     margin-top: -70px;
     margin-left: 350px;
 }
 
 .recent-imgAncien {
-    height: 200px;
-    width: 140px;
+    /* height: 200px;
+    width: 140px; */
     margin-left: 80px
 }
 
