@@ -21,7 +21,7 @@
     <header>
         
         <div class="logoPrin">
-             <img class="imglogo" src="//d.c.lallaing/php/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
+             <img class="imglogo" src="//d.c.lallaing/php/vue/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
         </div>
         <div class="titre"><h1>Dynamic C. Lallaing</h1></div>
     </header>
@@ -48,15 +48,7 @@
 
                 <div class="dropdown">
                     <button class="dropdown-btn"><a href="/php/vue/photos.php">Photos
-                        <!-- <div class="content">
-                            <a href="#">U6-U7(5-6 ans)</a></li>
-                            <a href="#">U8-U9(7-8 ans)</a></li>
-                            <a href="#">U10(9 ans)</a></li>
-                            <a href="#">U11(10 ans)</a></li>
-                            <a href="#">U12-U13(11-12 ans)</a></li>
-                            <a href="#">U14-U15(13-14 ans)</a></li>
-                            <a href="#">Seniors</a></li>
-                        </div> -->
+                       
                     </button>
                 </div>
 

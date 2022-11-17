@@ -14,7 +14,7 @@
                                         <p class="dateArticle" ><?=$donneescat[$i][4]?></p>
                                        
                                         <p class="texte"> <?=$donneescat[$i][1]?> </p>
-                                        <p class="tailleIm"><img class="recent-img" src="media/<?=$donneescat[$i][5]?>" alt=""></p>
+                                        <p class="tailleIm"><img class="recent-img" src="php/vue/media/<?=$donneescat[$i][5]?>" alt=""></p>
                 <!-- <img class="author-img" src="" alt=""> -->
                                         <p class="author-name">Hugo Langlois</p>
                               </a>
@@ -34,7 +34,7 @@
                 <a class="titleAncien" href="controler/controlleur-article_entier.php?id_article=<?=$donneesarc[$i][0]?>" title=""> 
                         <div class="block-articleAncien" >
                                 <p class="date" ><?=$donneesarc[$i][4]?></p>
-                                <img class="recent-imgAncien" src="media/<?=$donneesarc[$i][5]?>" alt="">
+                                <img class="recent-imgAncien" src="php/vue/media/<?=$donneesarc[$i][5]?>" alt="">
                                 <div class="article-contentAncien">
                                         <h2><?=$donneesarc[$i][2]?></h2>
                                         <section class="authorAncien">

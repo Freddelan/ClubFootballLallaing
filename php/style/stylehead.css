@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: url(../Media/stadelallaing.png)no-repeat;
+    background: url(../vue/Media/stadelallaing.png);
     height: 350px;
     width: 1800px;
 }
