@@ -19,10 +19,8 @@ img:hover {
 }
 
 .min {
-
     overflow: hidden;
     position: sticky;
     margin: 20px;
     float: left;
-
 }

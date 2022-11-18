@@ -55,5 +55,6 @@ if(isset($_POST['envoi'])){
             <br>
             <input type="submit" name="envoi" value="Ajouter" id="valider">
         </form>
+        <a href="php/vue/vue-index.php">Voir l'article</a>
     </body>
 </html>
