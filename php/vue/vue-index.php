@@ -7,7 +7,7 @@
                         
                         ?>
                         <div class="block-article">      
-                        <a class="title" href="controler/controlleur-article_entier.php?id_article=<?=$donneescat[$i][0]?>" title="">
+                        <a class="title" href="php/controler/controlleur-article_entier.php?id_article=<?=$donneescat[$i][0]?>" title="">
                                          
                                         <h2 class="title"><?=$donneescat[$i][2]?></h2>
                                 

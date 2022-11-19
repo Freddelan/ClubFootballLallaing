@@ -2,7 +2,7 @@
 require("../vue/head.php");
 
 // require("../vue/upload.php");
-// require("../vue/footer.php");
+require("../vue/footer.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

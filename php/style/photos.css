@@ -6,6 +6,8 @@ img {
     -o-transition: all 0.2s;
     transition: all 0.2s;
     width: 200px;
+    border-color: rgb(239, 243, 10);
+
 }
 
 img:hover {
