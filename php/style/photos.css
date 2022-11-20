@@ -1,5 +1,5 @@
 img {
-    box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 18px 18px 10px 0px rgba(0, 0, 0, 0.5);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -21,10 +21,14 @@ img:hover {
 }
 
 .min {
-
+    margin-left: 50px;
+    margin-top: 30px;
+    /* margin-right: 50px; */
     overflow: hidden;
-    position: sticky;
-    margin: 20px;
-    float: left;
+    position: relative;
+
+    display: inline-block;
+    justify-content: center;
+
 
 }

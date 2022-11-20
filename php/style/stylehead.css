@@ -15,21 +15,21 @@ body {
 
 header {
     background: url(../vue/Media/stadelallaing.png);
-    height: 350px;
+    height: 250px;
     width: 1800px;
 }
 
 /* titre */
-h1 {
+.titrehead {
     font-family: 'Trebuchet MS', Arial, sans-serif;
     letter-spacing: 20px;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: normal;
     color: rgb(249, 222, 4);
-    text-align: center;
+    /* text-align: center; */
     text-shadow: 2px 2px 5px black, 0 0 25px blue, 0 0 5px darkblue;
-    margin-top: -140px;
-    margin-left: 200px;
+    margin-top: -40px;
+    margin-left: 400px;
 }
 
 /* logo */
@@ -37,7 +37,7 @@ h1 {
 
     width: 120px;
     height: 120px;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 20px;
 }
 
@@ -81,8 +81,9 @@ a {
 
 
 .dropdown-btn {
+    margin-left: 17px;
 
-    cursor: pointer;
+    /* cursor: pointer;
     font-weight: 600;
     font-weight: bold;
     text-decoration: none;
@@ -107,7 +108,7 @@ a {
     padding: 13px;
     border-color: #e1e1e1;
     border-width: 1px;
-    border-style: solid;
+    border-style: solid; */
 }
 
 
@@ -195,11 +196,6 @@ div #contact {
     margin-left: 950px;
     margin-top: -26px;
 
-}
-
-.Nous_trouver {
-    margin-left: 30px;
-    font-family: 'Fira Sans', sans-serif;
 }
 
 .dropdown {

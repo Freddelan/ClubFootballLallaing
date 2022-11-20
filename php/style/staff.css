@@ -1,0 +1,14 @@
+body {
+
+    /* background: url('/media/backgroundA.jpg'); */
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}

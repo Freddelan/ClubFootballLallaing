@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="/php/style/index.css">
     <link rel="stylesheet" type="text/css" href="/php/style/article_entier.css"> 
     <link rel="stylesheet" type="text/css" href="/php/style/footer.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/php/style/photos.css"> -->
+    <link rel="stylesheet" type="text/css" href="/php/style/staff.css">
     <title>D.C.L LALLAING</title>
 </head>
 <section class="navbar-btn">
@@ -23,7 +25,7 @@
         <div class="logoPrin">
              <img class="imglogo" src="//d.c.lallaing/php/vue/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
         </div>
-        <div class="titre"><h1>Dynamic C. Lallaing</h1></div>
+        <div class="titrehead"><h1>Dynamic C. Lallaing</h1></div>
     </header>
         <section class="navbar-container">
             <nav class="main-navbar">
@@ -63,7 +65,7 @@
                         </button>
                 </div>
                 <div class="dropdown"> 
-                        <button class="dropdown-btn"><a class="dirigeant" href="#">Staff</a></button>
+                        <button class="dropdown-btn"><a class="dirigeant" href="/php/vue/staff.php">Staff</a></button>
                 </div>
                 <div class="dropdown"> 
                         <button class="dropdown-btn"><a  href="#">Classement
@@ -99,4 +101,6 @@
             }
         })
     </script>
-    <script src="script.js"></script>-
+    <script src="script.js"></script>
+    </body>
+    </html>

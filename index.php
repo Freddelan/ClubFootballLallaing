@@ -3,4 +3,5 @@
         require("php/vue/head.php"); 
         require("php/src/model-index.php");
         require("php/vue/vue-index.php");
-        require("php/vue/footer.php"); 
+        require("php/vue/footer.php");
+        ?>
