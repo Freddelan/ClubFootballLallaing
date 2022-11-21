@@ -40,6 +40,14 @@
         <h2>Arbitre officiel</h2>
         <p>Boursaud Xavier</p>
 
+       <h2> Dirigeants </h2>
+        <li>Bastien Stéphanie</li>
+        <li>Brismail Mickael</li>
+        <li>Crépin Patrick</li>
+        <li>Gourdin Élodie</li>
+        <li>Lakomy Michael</li>
+        <li>Musial Michael</li> 
+        
         <h2>Bureau</h2>
        <strong> Président :</strong> Langlois Richard <br>
     <strong>Secrétaire : </strong> Langlois Hugo</p></ul>

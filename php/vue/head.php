@@ -36,15 +36,15 @@
 
                 <div class="dropdown">
                     <button class="dropdown-btn"><a href="/php/vue/equipes.php">Equipes</a>
-                        <div class="content">
-                            <a href="#">U6-U7(5-6 ans)</a></li>
-                            <a href="#">U8-U9(7-8 ans)</a></li>
-                            <a href="#">U10(9 ans)</a></li>
-                            <a href="#">U11(10 ans)</a></li>
+                        <!-- <div class="content">
+                            <a href="U6-U7.php">U6-U7(5-6 ans)</a></li>
+                            <a href="U8-U9.php">U8-U9(7-8 ans)</a></li>
+                            <a href="U10.php">U10(9 ans)</a></li>
+                            <a href="U11.php">U11(10 ans)</a></li>
                             <a href="#">U12-U13(11-12 ans)</a></li>
                             <a href="#">U14-U15(13-14 ans)</a></li>
                             <a href="#">Seniors</a></li>
-                        </div>
+                        </div> -->
                     </button>
                 </div>
 

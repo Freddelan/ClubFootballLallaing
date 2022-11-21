@@ -14,6 +14,7 @@ require("../vue/head.php");
     <title>Document</title>
 </head>
 <body>
+
 <?php
 
 $dos = "Media/min";

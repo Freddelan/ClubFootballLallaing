@@ -1,9 +1,11 @@
  /* CSS VUE-INDEX.PHP */
 
-     {
-     box-sizing: border-box;
+ .entier {
+     /* box-sizing: border-box;
      margin: 0px;
-     padding: 0px;
+     padding: 0px; */
+     width: 800px;
+     height: auto;
  }
 
 
@@ -29,8 +31,10 @@
  }
 
 
- img {
-     max-width: 100%;
+ .imgArt3 {
+     width: 50%;
+     height: 50%;
+     margin-left: 90%;
  }
 
 
@@ -55,42 +59,42 @@
  }
 
 
- .article-content {
+ /* .article-content {
      display: flex;
      flex-direction: column;
      justify-content: space-between;
      margin-bottom: 20px;
- }
+ } */
 
 
- .recent-img {
+ /* .recent-img {
      /* width: 400px; */
-     /* height: 150px; */
-     margin-bottom: 20px;
+ /* height: 150px; */
+ margin-bottom: 20px;
  }
 
-
- .recent-article {
+ */
+ /* .recent-article {
      display: grid;
      grid-template-columns: 1fr 1fr;
      column-gap: 20px;
- }
+ } */
 
 
 
- .author-img {
+ /* .author-img {
      width: 2.5rem;
      height: 2.5rem;
      object-fit: cover;
      border-radius: 50%;
- }
+ } */
 
- */ .author-name {
+ .author-name {
      font-size: 12px;
      font-weight: bold;
  }
 
- */
+
  /* media queries */
 
  /* @media screen and (max-width: 600px) {
