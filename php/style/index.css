@@ -17,39 +17,32 @@ body {
         "article anciens-articles";
 }
 
-.container {
-    /* border: 2px solid #F9DE04; */
+.block-article {
+    width: 60%;
+    margin-left: 200px;
+}
 
+.Ancientitle {
+    text-align: center;
 }
 
 .title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
     font-weight: 700;
-
-}
-
-.conteneurArticle {
-    border: solid 1px rgb(85, 84, 84);
-    border-bottom: ;
+    text-transform: uppercase;
+    text-align: justify;
 }
 
 .article {
-    width: 100%;
+
     grid-area: article;
-    margin-left: 80px;
-    */
-    /* border: 3px solid#F9DE04;
-    background-color: #f3f0f0; */
-    border-bottom:
+    margin-left: 180px;
 }
 
-.texte {
-    font-family: 'Fira Sans', sans-serif;
-    width: 35%;
-    margin-left: 10%;
-    margin-top: 50px;
-
+.titleArtAn {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .author-name {
@@ -59,65 +52,39 @@ body {
 .anciens-articles {
     grid-area: anciens-articles;
     margin-right: 100px;
-    */ /border: 3px solid#F9DE04;
-    /* margin-left: 330px; */
     background-color: #f0f0f0;
     width: 100%;
 }
 
 .recent-img {
-    height: 200px;
-    width: 140 px;
-    /* border-radius: 15%; */
-    margin-top: -70px;
-    margin-left: 350px;
+    height: 40%;
+    width: 40%;
+    border-radius: 15%;
+    float: left;
+    padding: 10px 10px 10px 10px;
 }
 
 .recent-imgAncien {
-    height: 200px;
-    width: 140px;
-    margin-left: 80px
-}
-
-.block-article {
-
-    text-align: center;
-    border-bottom: solid 1px rgb(85, 84, 84);
-}
-
-/* .block-articleAncien {
-    margin-top: 45px;
-    /* margin-right: 100px; */
-}
-
-*/ .date {
-    margin-top: -37px;
-    margin-left: 10px;
+    height: 150px;
+    width: 150px;
+    margin-left: 120px
 }
 
 .dateArticle {
     margin-left: 5px;
 }
 
-
-
-
-.imgArt3 {
-    width: 160px;
-    height: 230px;
-    margin-left: 10%;
+.date {
+    margin-left: 20px;
 }
 
-.titreEntier {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
-}
+.article {
+    font-size: medium;
+    text-align: justify;
+    line-height: 40px;
+    width: 75%;
 
-.texteEntier {
-    width: 60%;
-    text-align: center;
-    margin-left: 30%;
-    margin-top: -220px;
+
 }
 
 .auteur {

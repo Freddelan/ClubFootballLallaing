@@ -19,6 +19,13 @@ header {
     width: 1800px;
 }
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 /* titre */
 .titrehead {
     font-family: 'Trebuchet MS', Arial, sans-serif;

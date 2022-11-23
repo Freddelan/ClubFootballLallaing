@@ -12,17 +12,17 @@ if(isset($_POST['envoi'])){
     }else{
         $archive= 0;
     }
-    if(!empty($_POST['titre']) && !empty($_POST['resume']) && !empty($_POST['contenu']) && !empty($_POST['date_de_publication']) && !empty($_POST['Image'])){
+    if(!empty($_POST['titre']) &&  !empty($_POST['contenu']) && !empty($_POST['date_de_publication']) && !empty($_POST['Image'])){
         $titre= htmlspecialchars($_POST['titre']);
-        $resume= nl2br(htmlspecialchars($_POST['resume']));
+        // $resume= nl2br(htmlspecialchars($_POST['resume']));
         $contenu= nl2br(htmlspecialchars($_POST['contenu']));
         $datepub= date(htmlspecialchars($_POST['date_de_publication']));
         $image= ($_POST['Image']);
         
 
-        $insererArticle = $conn->prepare('INSERT INTO article(titre_article, lesume, contenue_art, date_, ref_image, archive)VALUES(?, ?, ?, ?, ?, ?)');
+        $insererArticle = $conn->prepare('INSERT INTO article(titre_article, contenue_art, date_, ref_image, archive)VALUES(?, ?, ?, ?, ?)');
 
-        $insererArticle->execute(array($titre, $resume, $contenu, $datepub, $image, $archive));
+        $insererArticle->execute(array($titre, $contenu, $datepub, $image, $archive));
 
         echo "Votre article figure sur votre site !!";
 
@@ -43,8 +43,6 @@ if(isset($_POST['envoi'])){
         <form method="Post" action="">
             <input type="text" name="titre" placeholder="Titre" required="required">
             <br>
-            <textarea name="resume" placeholder="Résumé..." required="required"></textarea>
-            <br>
             <textarea name="contenu" placeholder="Article..." id="contenu" cols="30" rows="10" required="required"></textarea>
             <br>
             <input type="date" name="date_de_publication" placeholder="Date" required="required">
@@ -55,6 +53,6 @@ if(isset($_POST['envoi'])){
             <br>
             <input type="submit" name="envoi" value="Ajouter" id="valider">
         </form>
-        <a href="/php/vue/vue-index.php">Voir l'article</a>
+        <a href="/index.php">Voir l'article</a>
     </body>
 </html>

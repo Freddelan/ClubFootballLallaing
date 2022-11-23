@@ -13,20 +13,24 @@
     <link rel="stylesheet" type="text/css" href="/php/style/footer.css">
     <!-- <link rel="stylesheet" type="text/css" href="/php/style/photos.css"> -->
     <link rel="stylesheet" type="text/css" href="/php/style/staff.css">
+    <link rel="stylesheet" type="text/css" href="/php/vue/vue-article_entier.css">
+    
     <title>D.C.L LALLAING</title>
-</head>
+</head> 
+<header>
 <section class="navbar-btn">
                 <button class="btn"><a href="/admin/vue/connexion.php">Log in</a></button>
     </section>
-<body>
+
     
-    <header>
+   
         
         <div class="logoPrin">
              <img class="imglogo" src="//d.c.lallaing/php/vue/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
         </div>
         <div class="titrehead"><h1>Dynamic C. Lallaing</h1></div>
-    </header>
+    
+    <body>
         <section class="navbar-container">
             <nav class="main-navbar">
                 <div class="dropdown">
@@ -86,7 +90,7 @@
                 </div>
             </nav>
         </section>
-    
+    </header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="script.js"></script>
 

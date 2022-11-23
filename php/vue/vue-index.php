@@ -3,51 +3,52 @@
         <aside class="article">
                             
                         <?php 
+                        // var_dump($donneescat);
                         for ($i=0 ; $i < count($donneescat); $i++){
                         
                         ?>
-                        <div class="block-article">      
-                        <a class="title" href="php/controler/controlleur-article_entier.php?id_article=<?=$donneescat[$i][0]?>" title="">
-                                         
-                                        <h2 class="title"><?=$donneescat[$i][2]?></h2>
-                                
-                                        <p class="dateArticle" ><?=$donneescat[$i][4]?></p>
-                                       
-                                        <p class="texte"> <?=$donneescat[$i][1]?> </p>
-                                        <p class="tailleIm"><img class="recent-img" src="php/vue/media/<?=$donneescat[$i][5]?>" alt=""></p>
-                <!-- <img class="author-img" src="" alt=""> -->
+                        <div class="block-article">     
+                                        <p class="dateArticle" ><?=$donneescat[$i][3]?></p>
+                                        <h1 class="title" ><?=$donneescat[$i][1]?></h1>
+                                        <p class="tailleIm"><img class="recent-img" src="php/vue/media/<?=$donneescat[$i][4]?>" alt=""></p>
+                                                <!-- <img class="author-img" src="" alt="">  -->
+                                        <p class="article"><?=$donneescat[$i][2]?></p>
                                         <p class="author-name">Hugo Langlois</p>
-                              </a>
+                              </a><hr class='ligne'>
                         </div>  
                               <?php
                                 }
                                 ?>
                                 
         </aside> 
-  
+        
         <aside class="anciens-articles">
+                <h1 class="Ancientitle">Articles anciens</h1>
                 <?php
                 for ($i=0 ; $i < count($donneesarc); $i++){
                         
                  ?>  
-                <!-- <h1>Articles anciens</h1> -->
-                <a class="titleAncien" href="controler/controlleur-article_entier.php?id_article=<?=$donneesarc[$i][0]?>" title=""> 
+                
+                <a class="titleAncien" href="php/controler/controlleur-article_entier.php?id_article=<?=$donneesarc[$i][0]?>" title=""> 
                         <div class="block-articleAncien" >
-                                <p class="date" ><?=$donneesarc[$i][4]?></p>
-                                <img class="recent-imgAncien" src="php/vue/media/<?=$donneesarc[$i][5]?>" alt="">
+                                <p class="date" ><?=$donneesarc[$i][3]?></p>
+                                <h1 class="titleArtAn" ><?=$donneescat[$i][1]?></h1>
+                                <img class="recent-imgAncien" src="php/vue/media/<?=$donneesarc[$i][4]?>" alt="">
                                 <div class="article-contentAncien">
-                                        <h2><?=$donneesarc[$i][2]?></h2>
+                                        <!-- <h2><?=$donneesarc[$i][1]?></h2> -->
                                         <section class="authorAncien">
-                                                <img class="author-imgAncien" src="" alt="">                      
-                                        </section>  
+                                                <img class="author-imgAncien" src="" alt="">
+                                                            
+                                        </section> 
                                 </div>
-                  
+                    </hr> 
                         </div>
                     </a>      
                         <?php
                                 
                         }
                                ?>
+                               
         </aside>
 
           

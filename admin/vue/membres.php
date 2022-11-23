@@ -1,6 +1,6 @@
 <?php
  session_start();
- $bdd = new PDO('mysql:host=localhost;dbname=connexion_admin;', 'root', 'paradoxe0311');
+ $bdd = new PDO('mysql:host=localhost;dbname=connexion_admin;', 'root', 'paradoxe0311', array (PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\'')); 
  if(!$_SESSION['mdp']){
     header('Location: connexion.php');
  }
