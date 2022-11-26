@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="/php/style/index.css">
     <link rel="stylesheet" type="text/css" href="/php/style/article_entier.css"> 
     <link rel="stylesheet" type="text/css" href="/php/style/footer.css">
+    <link rel="stylesheet" type="text/css" href="/php/style/AnimBallon.css">
+
     <!-- <link rel="stylesheet" type="text/css" href="/php/style/photos.css"> -->
     <link rel="stylesheet" type="text/css" href="/php/style/staff.css">
     <link rel="stylesheet" type="text/css" href="/php/vue/vue-article_entier.css">

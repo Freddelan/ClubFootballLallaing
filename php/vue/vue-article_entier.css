@@ -17,4 +17,11 @@
 .texteEntier4,
 .auteur4 {
     text-align: center;
+
+}
+
+.titreEntier4 {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
 }

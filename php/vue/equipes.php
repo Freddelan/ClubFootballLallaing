@@ -1,5 +1,6 @@
 <?php
 require("../vue/head.php");
+require("../vue/AnimBallon.php");
 // require("../vue/footer.php");
 
 ?>
