@@ -11,7 +11,11 @@
         </ul>
         <div class="copy">
         © FredericD 2022</div>
-   
+        <section class="reseaux">
+                
+                <a href="https://www.facebook.com/profile.php?id=100057582574036" class="fa-brands fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/dclallaing_off/?hl=fr" class="fa-brands fa-instagram" target="_blank"></a>
+        </section>
     
 </footer>
 </body>

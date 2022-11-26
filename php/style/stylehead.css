@@ -17,14 +17,10 @@ header {
     background: url(../vue/Media/stadelallaing.png);
     height: 250px;
     width: 1800px;
+    /* position: fixed; */
 }
 
-.fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
+
 
 /* titre */
 .titrehead {
@@ -70,7 +66,8 @@ a {
 
 
 .navbar-container {
-
+    margin-top: -12%;
+    position: fixed;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
@@ -90,7 +87,7 @@ a {
 .dropdown-btn {
     margin-left: 17px;
 
-    /* cursor: pointer;
+    cursor: pointer;
     font-weight: 600;
     font-weight: bold;
     text-decoration: none;
@@ -115,7 +112,7 @@ a {
     padding: 13px;
     border-color: #e1e1e1;
     border-width: 1px;
-    border-style: solid; */
+    border-style: solid;
 }
 
 
@@ -171,7 +168,7 @@ button {
 
 
 .content a {
-    color: whitesmoke;
+    color: rgb(6, 0, 0);
     display: flex;
     line-height: 2;
     padding: 0 10px;
@@ -180,7 +177,7 @@ button {
 
 
 .content a:hover {
-    background-color: #070807;
+    background-color: #ffffff;
 }
 
 

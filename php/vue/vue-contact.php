@@ -3,7 +3,7 @@
         
 
         <form action="" method="post" id="form1">
-<h2 class="text-center">Formulaire de contact</h2>
+            <h2 class="text-center">Formulaire de contact</h2>
             <div  id="renseign" >
                 <div class="form-group">
                      <label for="name"></label>

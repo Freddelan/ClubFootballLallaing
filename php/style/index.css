@@ -31,7 +31,10 @@ body {
     font-style: oblique;
     font-weight: 700;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: center;
+    color: #ffc800;
+    border: 2px;
+    background-color: black;
 }
 
 .article {
@@ -52,7 +55,7 @@ body {
 .anciens-articles {
     grid-area: anciens-articles;
     margin-right: 100px;
-    background-color: #f0f0f0;
+    background-color: rgb(242, 242, 151);
     width: 100%;
 }
 
@@ -62,12 +65,14 @@ body {
     border-radius: 15%;
     float: left;
     padding: 10px 10px 10px 10px;
+    /* box-shadow: -1em -1em .8em rgb(236, 236, 154); */
 }
 
 .recent-imgAncien {
     height: 150px;
     width: 150px;
-    margin-left: 120px
+    margin-left: 120px;
+    /* box-shadow: -1em 0 .4em olive; */
 }
 
 .dateArticle {
@@ -109,7 +114,6 @@ body {
     box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
     /* border-radius: 50px; */
 }
-
 
 .pub {
     position: relative;

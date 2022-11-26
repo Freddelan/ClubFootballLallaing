@@ -14,6 +14,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="/php/style/photos.css"> -->
     <link rel="stylesheet" type="text/css" href="/php/style/staff.css">
     <link rel="stylesheet" type="text/css" href="/php/vue/vue-article_entier.css">
+    <link rel="stylesheet" type="text/css" href="/php/vue/resaux-sociaux.css">
     
     <title>D.C.L LALLAING</title>
 </head> 
