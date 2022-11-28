@@ -36,11 +36,14 @@ if(isset($_POST['envoi'])){
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Publier un nouvel article</title>
         <meta charset="uft-8">
+        <link rel="stylesheet" href="../style/publier-article.css">
+        <title>Publier un nouvel article</title>
+        
+        
     </head>
     <body>
-        <form method="Post" action="">
+        <form class="pubArt" method="Post" action="">
             <input type="text" name="titre" placeholder="Titre" required="required">
             <br>
             <textarea name="contenu" placeholder="Article..." id="contenu" cols="30" rows="10" required="required"></textarea>

@@ -17,7 +17,7 @@ header {
     background: url(../vue/Media/stadelallaing.png);
     height: 250px;
     width: 1800px;
-    /* position: fixed; */
+
 }
 
 
@@ -33,14 +33,14 @@ header {
     text-shadow: 2px 2px 5px black, 0 0 25px blue, 0 0 5px darkblue;
     margin-top: -40px;
     margin-left: 400px;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-name: slidein;
 }
 
 @keyframes slidein {
     from {
-        margin-left: 100%;
-        width: 300%;
+        margin-left: 150%;
+        width: 100%;
     }
 
     to {
@@ -48,11 +48,6 @@ header {
         width: 100%;
     }
 
-    75% {
-        font-size: 300%;
-        margin-left: 25%;
-        width: 150%;
-    }
 }
 
 

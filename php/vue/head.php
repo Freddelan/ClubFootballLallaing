@@ -11,9 +11,8 @@
     <link rel="stylesheet" type="text/css" href="/php/style/index.css">
     <link rel="stylesheet" type="text/css" href="/php/style/article_entier.css"> 
     <link rel="stylesheet" type="text/css" href="/php/style/footer.css">
+    <link rel="stylesheet" type="text/css" href="/php/style/photos.css">
     <link rel="stylesheet" type="text/css" href="/php/style/AnimBallon.css">
-
-    <!-- <link rel="stylesheet" type="text/css" href="/php/style/photos.css"> -->
     <link rel="stylesheet" type="text/css" href="/php/style/staff.css">
     <link rel="stylesheet" type="text/css" href="/php/vue/vue-article_entier.css">
     <link rel="stylesheet" type="text/css" href="/php/vue/resaux-sociaux.css">
@@ -22,7 +21,7 @@
 </head> 
 <header>
 <section class="navbar-btn">
-                <button class="btn"><a href="/admin/vue/connexion.php">Log in</a></button>
+                <button class="btn"><a href="/admin/vue/connexion.php">Login</a></button>
     </section>
 
     
@@ -42,7 +41,7 @@
                 </div>
 
                 <div class="dropdown">
-                    <button class="dropdown-btn"><a href="/php/vue/equipes.php">Equipes</a>
+                    <button class="dropdown-btn"><a href="/php/controler/controler-equipes.php">Equipes</a>
                         <!-- <div class="content">
                             <a href="U6-U7.php">U6-U7(5-6 ans)</a></li>
                             <a href="U8-U9.php">U8-U9(7-8 ans)</a></li>
@@ -56,7 +55,7 @@
                 </div>
 
                 <div class="dropdown">
-                    <button class="dropdown-btn"><a href="/php/vue/photos.php">Photos
+                    <button class="dropdown-btn"><a href="/php/controler/controleur_photos.php">Photos
                        
                     </button>
                 </div>
@@ -71,9 +70,9 @@
                         <button class="dropdown-btn"><a class="boutique" href="#">Boutique</a>
                         </button>
                 </div>
-                <div class="dropdown"> 
-                        <button class="dropdown-btn"><a class="dirigeant" href="/php/vue/staff.php">Staff</a></button>
-                </div>
+                <!-- <div class="dropdown"> 
+                        <button class="dropdown-btn"><a class="dirigeant" href="/php/controler/controler-staff.php">Staff</a></button>
+                </div> -->
                 <div class="dropdown"> 
                         <button class="dropdown-btn"><a  href="#">Classement
                              <div class="content">

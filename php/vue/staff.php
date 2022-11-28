@@ -1,14 +1,4 @@
- <?php
-    include('../vue/head.php');
-    // require('../vue/staff.php');
-    // require('../style/staff.css');
-    include('../vue/footer.php'); 
-    ?> 
-
-<html> 
-
-<body>
-    <section>
+ <section>
         <ul>
             <h2>Educateurs</h2>
        
@@ -52,5 +42,4 @@
        <strong> Président :</strong> Langlois Richard <br>
     <strong>Secrétaire : </strong> Langlois Hugo</p></ul>
     </section>
-</body>
-</html>
+

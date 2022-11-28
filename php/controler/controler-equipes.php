@@ -1,5 +1,5 @@
 <?php
     include('../vue/head.php');
-    require('../vue/staff.php');
+    require('../vue/equipes.php');
     include('../vue/footer.php');
-?>
+ ?>

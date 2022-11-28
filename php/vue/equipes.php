@@ -1,19 +1,5 @@
-<?php
-require("../vue/head.php");
-require("../vue/AnimBallon.php");
-// require("../vue/footer.php");
 
-?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipes</title>
-</head>
-<body>
 <p>
 <strong>Catégorie Seniors :</strong>
 <ul>
@@ -100,5 +86,3 @@ require("../vue/AnimBallon.php");
 <li>Wasielewski Tom</li>
 </ul>
 </p>
-</body>
-</html>

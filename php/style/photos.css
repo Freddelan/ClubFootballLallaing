@@ -2,20 +2,19 @@ body {
     background-color: azure;
 }
 
-img {
-    /* box-shadow: 18px 18px 10px 0px rgba(0, 0, 0, 0.5); */
-    /* -webkit-transition: all 0.2s;
+.galerie {
+    box-shadow: 18px 18px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
-    -o-transition: all 0.2s; */
-    /* transition: all 0.2s; */
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
     width: 200px;
-    /* border-color: rgb(239, 243, 10); */
-    border-radius: 50%;
+    /* border-radius: 50%; */
 
 }
 
-img:hover {
+.galerie:hover {
     /* border: 2px solid #000000; */
     /* box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5); */
     -ms-transform: scale(1.5);

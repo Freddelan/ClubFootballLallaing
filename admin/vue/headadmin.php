@@ -1,4 +1,12 @@
- <!-- <!DOCTYPE html>
+<!-- <?php
+// include("index.php");
+ session_start();
+ 
+ if(!$_SESSION['mdp']){
+     header('Location: connexion.php');
+}
+?>
+ <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">

@@ -1,4 +1,6 @@
 <?php
-require("/php/vue/head.php");
-require("/php/vue/footer.php");
+require("../vue/head.php");
+require("../src/model-photos.php");
+require("../vue/photos.php");
+require("../vue/footer.php");
 ?>

@@ -16,6 +16,7 @@
         echo "Aucun membre n'a été trouvé";
     }
  }else{
-    echo "L'identifiant n'a pas été récupéré;
+    echo "L'identifiant n'a pas été récupéré";
  }
+
  ?>
