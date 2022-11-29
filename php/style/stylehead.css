@@ -14,8 +14,8 @@ body {
 }
 
 header {
-    background: url(../vue/Media/stadelallaing.png);
-    height: 250px;
+
+    height: 450px;
     width: 1800px;
 
 }
@@ -224,4 +224,13 @@ div #contact {
 
 .dropdown {
     margin-right: 5px;
+}
+
+.imageClub {
+    width: 234.64px;
+    height: 162.95px;
+    border: rgb(249, 222, 4) solid 2px;
+    /* border-radius: 50%; */
+    margin-left: 18px;
+
 }

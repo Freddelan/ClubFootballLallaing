@@ -1,6 +1,7 @@
 /* CSS VUE-ARTICLE-ENTIER.PHP */
 body {
     background: azure;
+    border: #ffc800 solid 5px;
 }
 
 .container {
@@ -102,6 +103,14 @@ body {
     width: 400px;
     height: 270px;
 
+
+}
+
+.carte {
+    border: rgb(245, 65, 11) 10px solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .partenaire {
@@ -124,4 +133,12 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.imageStade {
+    background: url(../vue/Media/stadelallaing.png);
+    width: 1570px;
+    height: 230px;
+    border: rgb(242, 242, 151) solid 5px;
+
 }

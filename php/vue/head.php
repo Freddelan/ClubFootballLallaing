@@ -19,8 +19,10 @@
     
     <title>D.C.L LALLAING</title>
 </head> 
+<body>
 <header>
-<section class="navbar-btn">
+
+    <section class="navbar-btn">
                 <button class="btn"><a href="/admin/vue/connexion.php">Login</a></button>
     </section>
 
@@ -30,9 +32,10 @@
         <div class="logoPrin">
              <img class="imglogo" src="//d.c.lallaing/php/vue/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
         </div>
+        
         <div class="titrehead"><h1>Dynamic C. Lallaing</h1></div>
     
-    <body>
+    
         <section class="navbar-container">
             <nav class="main-navbar">
                 <div class="dropdown">
@@ -42,15 +45,7 @@
 
                 <div class="dropdown">
                     <button class="dropdown-btn"><a href="/php/controler/controler-equipes.php">Equipes</a>
-                        <!-- <div class="content">
-                            <a href="U6-U7.php">U6-U7(5-6 ans)</a></li>
-                            <a href="U8-U9.php">U8-U9(7-8 ans)</a></li>
-                            <a href="U10.php">U10(9 ans)</a></li>
-                            <a href="U11.php">U11(10 ans)</a></li>
-                            <a href="#">U12-U13(11-12 ans)</a></li>
-                            <a href="#">U14-U15(13-14 ans)</a></li>
-                            <a href="#">Seniors</a></li>
-                        </div> -->
+                       
                     </button>
                 </div>
 
@@ -92,6 +87,15 @@
                 </div>
             </nav>
         </section>
+        <div class="imageClub1">
+    <img class="imageClub" src="//d.c.lallaing/php/vue/Media/EquipeU6U7.jpg">
+    <img class="imageClub" src="//d.c.lallaing/php/vue/Media/EquipeU8U9.jpg">
+    <img class="imageClub" src="//d.c.lallaing/php/vue/Media/EquipeU10.jpg">
+    <img class="imageClub" src="//d.c.lallaing/php/vue/Media/EquipeU11.jpg">
+    <img class="imageClub" src="//d.c.lallaing/php/vue/Media/EquipeU12U13.jpg">
+    <img class="imageClub" src="//d.c.lallaing/php/vue/Media/seniors.jpg">
+    
+   </div>
     </header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="script.js"></script>

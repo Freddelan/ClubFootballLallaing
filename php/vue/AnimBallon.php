@@ -3,7 +3,6 @@
 <div id="foo">
     
 </div>
-
 <script>
 var f = document.getElementById('foo');
 document.addEventListener('click', function(ev){
