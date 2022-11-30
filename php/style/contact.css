@@ -81,3 +81,7 @@ input[type=email] {
     margin-left: 0px;
     resize: vertical;
 }
+
+textarea {
+    height: 150px;
+}

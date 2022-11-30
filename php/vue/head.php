@@ -30,7 +30,7 @@
    
         
         <div class="logoPrin">
-             <img class="imglogo" src="//d.c.lallaing/php/vue/Media/logoDCL.png" alt="logo club de foot Lallaing"></img>
+             <img class="imglogo" src="//d.c.lallaing/php/vue/Media/logoDCL.png" alt="logo club de foot Lallaing" style="max-width:100%;height:auto ;"></img>
         </div>
         
         <div class="titrehead"><h1>Dynamic C. Lallaing</h1></div>
@@ -95,8 +95,9 @@
     <img class="imageClub" src="//d.c.lallaing/php/vue/Media/EquipeU12U13.jpg">
     <img class="imageClub" src="//d.c.lallaing/php/vue/Media/seniors.jpg">
     
-   </div>
+   
     </header>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="script.js"></script>
 
