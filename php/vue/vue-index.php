@@ -64,7 +64,7 @@
                          <p>
                                STADE MUNICIPAL  <br>
                                 430 AVENUE DE LA RESISTANCE<br> 59167 LALLAING<br>
-                                Téléphone autre : 0664205966<br>
+                                
                                 Téléphone domicile : 0782509493<br>  
                         </p>
                 </div>

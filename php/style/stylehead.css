@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
 
+
 /*Navigation*/
 body {
     margin-top: 0px;
     margin-left: 0px;
     font-family: Avenir, sans-serif;
-    width: 1600px;
+    width: 100%;
     height: auto;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -14,10 +15,8 @@ body {
 }
 
 header {
-
-    height: 450px;
-    width: 1800px;
-
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -31,8 +30,8 @@ header {
     color: rgb(249, 222, 4);
     /* text-align: center; */
     text-shadow: 2px 2px 5px black, 0 0 25px blue, 0 0 5px darkblue;
-    margin-top: -40px;
-    margin-left: 400px;
+    margin-top: -5%;
+    margin-left: 30%;
     animation-duration: 5s;
     animation-name: slidein;
 }
@@ -84,14 +83,14 @@ a {
 
 
 .navbar-container {
-    margin-top: -12%;
+    margin-top: -9%;
     position: fixed;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     border-bottom: solid rgb(168, 168, 168) 1px;
-    margin-left: 300px;
-    margin-right: 280px;
+    margin-left: 25%;
+
 }
 
 
@@ -146,7 +145,7 @@ a {
     border: solid 1px whitesmoke;
     border-radius: 20px;
     margin-right: 100px;
-    margin-left: 1400px;
+    margin-left: 80%;
     position: relative;
 
 }
@@ -238,4 +237,12 @@ div #contact {
 .descendre {
     margin-top: 250px;
 
+}
+
+@media screen and (max-width: 475px) {
+
+    .titrehead,
+    .imageClub {
+        display: none;
+    }
 }

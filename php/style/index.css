@@ -1,6 +1,7 @@
-@media only screen and (max-width: 600px);
-
 /* CSS VUE-ARTICLE-ENTIER.PHP */
+
+
+
 body {
     background: azure;
     border: #ffc800 solid 5px;
@@ -155,49 +156,8 @@ body {
     height: 50px;
 }
 
-/* .oui-back-to-top.show {
-    opacity: 1;
-    visibility: visible;
-} */
-
-/* .oui-back-to-top {
-    height: 54px;
-    height: 3.375rem;
-    width: 54px;
-    width: 3.375rem;
-    border: none;
-    padding: 0;
-    z-index: 300;
-    right: 0.5rem;
-    bottom: 5rem;
-    visibility: hidden;
-    opacity: 0;
-    outline: none;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: rgb(0 13 31 / 25%) 0 0 0.25rem 0;
-    transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) .2s;
-} */
-
-/* button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
-    cursor: pointer;
-} */
-
-/* @media (min-width: 768px) .oui-back-to-top {
-    right: 1.5rem;
-} */
-
-/* button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
-    cursor: pointer;
-} */
 
 .remonte {
     margin-left: 800px;
-    border-radius: 50%;
+
 }
