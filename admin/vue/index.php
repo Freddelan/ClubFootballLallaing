@@ -9,7 +9,7 @@ include("headadmin.php");
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="/admin/style/index.css">
+        <link rel="stylesheet" href="../style/index.css">
         <link rel="stylesheet" href="/admin/style/publier-article.css">
         <title>Accueil</title>
     </head>

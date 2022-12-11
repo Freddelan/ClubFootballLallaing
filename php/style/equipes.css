@@ -1,0 +1,16 @@
+.equipes {
+    border: 1px solid yellow;
+    background-color: beige;
+    height: auto;
+    width: 100%;
+    padding: 0 10px;
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+#boxes {
+    content: "";
+
+
+}

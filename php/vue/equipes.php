@@ -1,7 +1,7 @@
-
-
-<p>
-<strong>Catégorie Seniors :</strong>
+<div id="boxes">
+<div class="equipes">
+<p class="categ">
+<strong class="senior">Catégorie Seniors :</strong>
 <ul>
 <li>Anceau Arnaud</li>
 <li>Anceau Clément</li>
@@ -32,9 +32,12 @@
 <li>Savary Alexis</li>
 <li>Savary Liam</li>
 <li>Sebbagh Lotfi</li></ul>
+</p></div>
 <br>
 <br>
-<strong>Catégorie U6 :</strong>
+<div class="equipes">
+<p class="categ">
+<strong class="u6">Catégorie U6 :</strong>
 <ul>
 <li>Delhors Benjamin</li>
 <li>Durin Solal</li>
@@ -42,18 +45,24 @@
 <li>Poulain Lyvio</li>
 <li>Rochdi Adam</li>
 </ul>
+</p></div>
 <br>
 <br>
-<strong>Catégorie U7 :</strong>
+<div class="equipes">
+<p class="categ">
+<strong class="u7">Catégorie U7 :</strong>
 <ul>
 <li>Belfaqir Amine</li>
 <li>Bulot Alban</li>
 <li>Leroy Kenzo</li>
 <li>Mortelette Naim</li>
 </ul>
+</p></div>
 <br>
 <br>
-<strong>Catégorie U8 :</strong>
+<div class="equipes">
+<p class="categ">
+<strong class="u8">Catégorie U8 :</strong>
 <ul>
 <li>Crépin Kiyan</li>
 <li>Cuisse Thais</li>
@@ -68,9 +77,12 @@
 <li>Szczepzaniak Alexis</li>
 <li>Tatencloux Manao</li>
 </ul>
+</p></div>
 <br>
 <br>
-<strong>Catégorie U9 :</strong>
+<div class="equipes">
+<p class="categ">
+<strong classe="u9">Catégorie U9 :</strong>
 <ul>
 <li>Belfaqir Mohamed</li>
 <li>Colin Léandre</li>
@@ -85,4 +97,4 @@
 <li>Rutkowski Lexis</li>
 <li>Wasielewski Tom</li>
 </ul>
-</p>
+</p></div></div>

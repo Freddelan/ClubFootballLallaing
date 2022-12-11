@@ -43,7 +43,7 @@ if(isset($erreur)){
         <input type="submit" name="Envoyer"/>
         
     </form>
-    <a href="photos.php">Voir le résultat</a>
+    <a href="//d.c.lallaing/php/controler/controleur_photos.php">Voir le résultat</a>
     <?php
 
     $dos = "Media/min";

@@ -9,23 +9,23 @@
     <link rel="stylesheet" type="text/css" href="/php/style/stylehead.css">
     <link rel="stylesheet" type="text/css" href="/php/style/contact.css">
     <link rel="stylesheet" type="text/css" href="/php/style/index.css">
-    <link rel="stylesheet" type="text/css" href="/php/style/article_entier.css"> 
+    <link rel="stylesheet" type="text/css" href="/php/style/article_entier.css">
     <link rel="stylesheet" type="text/css" href="/php/style/footer.css">
     <link rel="stylesheet" type="text/css" href="/php/style/photos.css">
     <link rel="stylesheet" type="text/css" href="/php/style/AnimBallon.css">
     <link rel="stylesheet" type="text/css" href="/php/style/staff.css">
     <link rel="stylesheet" type="text/css" href="/php/vue/vue-article_entier.css">
     <link rel="stylesheet" type="text/css" href="/php/vue/resaux-sociaux.css">
+    <link rel="stylesheet" type="text/css" href="/php/style/equipes.css">
     
     <title>D.C.L LALLAING</title>
-</head> 
+</head>
 <body>
 <header>
 
-    <section class="navbar-btn">
-                <button class="btn"><a href="/admin/vue/connexion.php">Login</a></button>
-    </section>
-
+    
+                <button class="btn"><a href="//d.c.lallaing/admin/vue/connexion.php">Login</a></button>
+    
     
    
         
@@ -87,19 +87,6 @@
     </header>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-
-    <!-- Fonction pour faire apparaitre la navbarre en noir au scroll -->
-    <script>
-        $(window).scroll(function () {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        })
-    </script>
-    <script src="script.js"></script>
+    
     </body>
     </html>
