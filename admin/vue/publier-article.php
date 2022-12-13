@@ -1,5 +1,8 @@
 <?php
  session_start();
+ if(!isset($_SESSION['admin'])){ //code sécurité pour éviter l'intrusion sans taper le code admin
+    header('Location: connexion.php');
+}
  if(!$_SESSION['mdp']){
      header('Location: connexion.php');
 }

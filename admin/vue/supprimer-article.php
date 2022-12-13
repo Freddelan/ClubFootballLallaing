@@ -1,5 +1,8 @@
 <?php
 require('connexionbdd2.php');
+if(!isset($_SESSION['admin'])){ //code sécurité pour éviter l'intrusion sans taper le code admin
+    header('Location: connexion.php');
+}
  $bdd = new PDO('mysql:host=localhost;dbname=connexion_admin;', 'root', 'paradoxe0311', array (PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\'')); 
 if(isset($_GET['id_article']) && !empty($_GET['id_article'])){
     $getid = $_GET['id_article'];

@@ -1,0 +1,28 @@
+.membres {
+    border: solid yellow 1px;
+    width: 30%;
+    height: 50%;
+
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #05050597;
+    border-top: 2px solid #ffc800;
+    border-left: 2px solid #ffc800;
+    background-color: rgba(252, 252, 251, 0);
+}
+
+.logoMembres {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+
+body {
+    background-color: beige;
+}
