@@ -61,7 +61,7 @@
                 <div class="Nous_trouver"><p><strong> <svg class="localisation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><style>@keyframes slide-right{0%{transform:translateY(0)}to{transform:translateY(-2px)}}</style><g style="animation:slide-right 1s cubic-bezier(.75,.02,.2,1.06) infinite alternate both" stroke-width="1.5"><path stroke="#0A0A30" d="M17 10.193c0 2.867-4.5 8.307-5 8.307s-5-5.44-5-8.307C7 7.325 9.239 5 12 5s5 2.325 5 5.193z"/><circle cx="12" cy="10" r="2" stroke="#265BFF"/></g></svg></strong></p>
                 
                          <iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.609397683382!2d3.1577409511039902!3d50.3924795993208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2cf53ce67a2b3%3A0x34325c97ab4b09e5!2s430%20Av.%20de%20la%20R%C3%A9sistance%2C%2059167%20Lallaing!5e0!3m2!1sfr!2sfr!4v1665598624809!5m2!1sfr!2sfr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                         <p>
+                         <p class="adclub">
                                STADE MUNICIPAL  <br>
                                 430 AVENUE DE LA RESISTANCE<br> 59167 LALLAING<br>
                                 

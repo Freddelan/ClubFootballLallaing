@@ -161,3 +161,53 @@ body {
     margin-left: 780px;
 
 }
+
+@media screen and (max-width:600px) {
+
+    .article {
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    .anciens-articles {
+        display: none;
+    }
+
+    /* .Nous_trouver {
+        width: 5%;
+        height: 5%;
+        margin-left: 0px;
+
+    } */
+
+    .partenaire,
+    .Nous_trouver {
+        margin-left: -80px;
+        width: 65%;
+    }
+
+    .pub {
+        display: inline-block;
+    }
+
+    .imageStade {
+        display: none;
+    }
+
+    .localisation,
+    .part {
+        display: none;
+    }
+
+    .adclub,
+    .adpart {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .anciens-articles {
+        margin-left: 10%;
+    }
+}

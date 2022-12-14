@@ -85,3 +85,26 @@ body {
 #deco {
     margin-left: 45%;
 }
+
+@media screen and (max-width:600px) {
+
+    .logoAdm {
+        width: 30%;
+        height: 30%;
+    }
+
+    .choix ul {
+        display: inline;
+    }
+
+    #deco,
+    #logout {
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        position: relative;
+
+
+
+    }
+}

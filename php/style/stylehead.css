@@ -85,10 +85,10 @@ a {
 .navbar-container {
     margin-top: -9%;
     position: fixed;
-    display: grid;
+    /* display: block; */
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
-    border-bottom: solid rgb(168, 168, 168) 1px;
+    /* border-bottom: solid rgb(168, 168, 168) 1px; */
     margin-left: 25%;
 
 }
@@ -239,10 +239,82 @@ div #contact {
 
 }
 
-@media screen and (max-width: 475px) {
+/* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #111;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+
+
+
+/* @media screen and (max-width: 992px) {
 
     .titrehead,
-    .imageClub {
+    .imageClub,
+    .navbar-container {
         display: none;
+    }
+
+    .imglogo {
+        margin-left: 50%;
+    }
+
+} */
+
+@media screen and (max-width:600px) {
+    .burger-icon span {
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .burger-icon span {
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    .titrehead,
+    .imageClub,
+    .navbar-container {
+        display: none;
+    }
+
+    .imglogo {
+        margin-left: 40%;
     }
 }

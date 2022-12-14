@@ -62,57 +62,7 @@
      margin: 10px 0px;
  }
 
-
- /* .article-content {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     margin-bottom: 20px;
- } */
-
-
- /* .recent-img {
-     /* width: 400px; */
- /* height: 150px; */
- margin-bottom: 20px;
- }
-
- */
- /* .recent-article {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     column-gap: 20px;
- } */
-
-
-
- /* .author-img {
-     width: 2.5rem;
-     height: 2.5rem;
-     object-fit: cover;
-     border-radius: 50%;
- } */
-
  .author-name {
      font-size: 12px;
      font-weight: bold;
  }
-
-
- /* media queries */
-
- /* @media screen and (max-width: 600px) {
-
-    .blog-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    h1 {
-        font-size: 18px;
-    }
-
-    .article-content {
-        font-size: 14px;
-    }
-} */

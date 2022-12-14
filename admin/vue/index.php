@@ -19,7 +19,7 @@ if(!isset($_SESSION['admin'])){ //code sécurité pour éviter l'intrusion sans 
         
         <img class="logoAdm" src="/php/vue/Media/logoDCL.png" alt="logoclub">
         <h1 class="titreAdmin">ADMINISTRATION</h1>
-        <div class="choix"></div>
+        <div class="choix">
         <ul class="menu">
             <li> <a href="membres.php">Afficher tous les membres</a></li>
             <li><a href="publier-article.php">Publier un nouvel article</a></li>

@@ -73,6 +73,31 @@
                         <button class="dropdown-btn" ><a class="contact" href="/php/controler/controler-contact.php">Contact</a>
                         </button> 
                 </div>
+                <a href="#" id="openBtn">
+  <span class="burger-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+</a>
+<script >
+var sidenav = document.getElementById("mySidenav");
+var openBtn = document.getElementById("openBtn");
+var closeBtn = document.getElementById("closeBtn");
+
+openBtn.onclick = openNav;
+closeBtn.onclick = closeNav;
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+  sidenav.classList.add("active");
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  sidenav.classList.remove("active");
+}
+</script>
             </nav>
         </section>
         <div class="imageClub1">
