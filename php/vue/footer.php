@@ -4,7 +4,7 @@
     
         <ul class="navF justify-content-center">
             <li class="nav-item"><a class="nav-link" href="/php/controler/controler-staff.php">Membres</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Calendriers</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://escaut.fff.fr/recherche-clubs?scl=789&doing_wp_cron=1671190427.9245550632476806640625" target="_blank">Calendriers</a></li>
             <li class="nav-item"><a class="nav-link" href="/php/controler/controler-contact.php">Contact</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Politique du club</a></li>
             

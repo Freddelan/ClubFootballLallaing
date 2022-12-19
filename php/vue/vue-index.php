@@ -1,3 +1,5 @@
+
+
 <main class="container">
                       
         <aside class="article">
@@ -9,10 +11,10 @@
                         ?>
                         <div class="block-article">     
                                         <p class="dateArticle" ><?=$donneescat[$i][3]?></p>
-                                        <h1 class="title" ><?=$donneescat[$i][1]?></h1>
+                                        <h2 contenteditable="true" class="title" ><?=$donneescat[$i][1]?></h2>
                                         <p class="tailleIm"><img class="recent-img" src="php/vue/media/<?=$donneescat[$i][4]?>" alt=""></p>
                                                 <!-- <img class="author-img" src="" alt="">  -->
-                                        <p class="article"><?=$donneescat[$i][2]?></p>
+                                        <p class="articlep"><?=$donneescat[$i][2]?></p>
                                         <p class="author-name">Hugo Langlois</p>
                               </a><hr class='ligne'>
                         </div>  
@@ -23,7 +25,7 @@
         </aside> 
         
         <aside class="anciens-articles">
-                <h1 class="Ancientitle">Articles anciens</h1>
+                <h2 contenteditable="true" class="Ancientitle">Articles anciens</h2>
                 <?php
                 for ($i=0 ; $i < count($donneesarc); $i++){
                         
@@ -32,7 +34,7 @@
                 <a class="titleAncien" href="php/controler/controlleur-article_entier.php?id_article=<?=$donneesarc[$i][0]?>" title=""> 
                         <div class="block-articleAncien" >
                                 <p class="date" ><?=$donneesarc[$i][3]?></p>
-                                <h1 class="titleArtAn" ><?=$donneescat[$i][1]?></h1>
+                                <h2 class="titleArtAn" ><?=$donneescat[$i][1]?></h2>
                                 <img class="recent-imgAncien" src="php/vue/media/<?=$donneesarc[$i][4]?>" alt="">
                                 <div class="article-contentAncien">
                                         <!-- <h2><?=$donneesarc[$i][1]?></h2> -->
@@ -50,7 +52,7 @@
                                ?>
                                
         </aside>
-
+       
           
 </main>
                         <hr class='ligne'>

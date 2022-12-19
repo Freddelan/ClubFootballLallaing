@@ -5,10 +5,7 @@
         <form action="" method="post" id="form1">
             <h2 class="text-center">Formulaire de contact</h2>
             <div  id="renseign" >
-                <div class="form-group">
-                     <label for="name"></label>
-                    <input class="form-control" type="text" id="name" name="user_name" placeholder="Votre Nom">
-                    </div>
+                
                 <div class="form-group">
                  <label  for="mail"></label>
                  <input class="form-control"  type="email" id="mail" name="user_mail" placeholder="Votre e-mail">

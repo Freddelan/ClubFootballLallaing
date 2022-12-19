@@ -50,7 +50,7 @@ body {
     /* Centrage du texte */
     background-color: #ffc800;
     /* Couleur d'arrière-plan */
-    color: #fff;
+    color: black;
     /* Couleur du texte */
     text-decoration: none;
     /* Suppression du soulignement */
@@ -64,7 +64,7 @@ body {
 
 .menu a:hover {
     background-color: #ffc800;
-    color: black;
+    color: #fff;
     border-color: #ffe843;
 }
 
