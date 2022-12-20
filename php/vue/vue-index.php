@@ -49,13 +49,12 @@
                         <?php
                                 
                         }
-                               ?>
-                               
+                               ?>               
         </aside>
-       
           
 </main>
                         <hr class='ligne'>
+
         <div class="imageStade">
                 <img src=(../vue/Media/stadelallaing.png)>
         </div>
@@ -70,9 +69,8 @@
                                 Téléphone domicile : 0782509493<br>  
                         </p>
                 </div>
-                
-               
-               
+
+          
                      <div class="partenaire">    <p><a href="https://www.lmf-energie.fr/" target="_blank">Notre partenaire <strong>içi</strong></a></p>
                          <p class="adpart">LMF-ENERGIE <br>
                                 1 rue Allard <br>

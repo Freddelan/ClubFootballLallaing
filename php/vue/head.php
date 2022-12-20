@@ -80,7 +80,7 @@
     <span></span>
   </span>
 </a>
-<script >
+<!-- <script >
 var sidenav = document.getElementById("mySidenav");
 var openBtn = document.getElementById("openBtn");
 var closeBtn = document.getElementById("closeBtn");
@@ -97,7 +97,7 @@ function openNav() {
 function closeNav() {
   sidenav.classList.remove("active");
 }
-</script>
+</script> -->
             </nav>
         </section>
         <div class="imageClub1">
