@@ -26,11 +26,10 @@
     
                 <button class="btn"><a href="//d.c.lallaing/admin/vue/connexion.php">Login</a></button>
     
-    
-   
-        
         <div class="logoPrin">
-             <img class="imglogo" src="//d.c.lallaing/php/vue/Media/logoDCL.png" alt="logo club de foot Lallaing" style="max-width:100%;height:auto ;"></img>
+             
+            <a href="//d.c.lallaing"><img class="imglogo" src="//d.c.lallaing/php/vue/Media/logoDCL.png" alt="logo club de foot Lallaing" style="max-width:100%;height:auto ;"></img></a>
+            
         </div>
         
         <div class="titrehead"><h1>Dynamic C. Lallaing</h1></div>

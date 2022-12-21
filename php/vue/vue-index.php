@@ -11,7 +11,7 @@
                         ?>
                         <div class="block-article">     
                                         <p class="dateArticle" ><?=$donneescat[$i][3]?></p>
-                                        <h2 contenteditable="true" class="title" ><?=$donneescat[$i][1]?></h2>
+                                        <h2  class="title" ><?=$donneescat[$i][1]?></h2>
                                         <p class="tailleIm"><img class="recent-img" src="php/vue/media/<?=$donneescat[$i][4]?>" alt=""></p>
                                                 <!-- <img class="author-img" src="" alt="">  -->
                                         <p class="articlep"><?=$donneescat[$i][2]?></p>
@@ -25,7 +25,7 @@
         </aside> 
         
         <aside class="anciens-articles">
-                <h2 contenteditable="true" class="Ancientitle">Articles anciens</h2>
+                <h2  class="Ancientitle">Articles anciens</h2>
                 <?php
                 for ($i=0 ; $i < count($donneesarc); $i++){
                         

@@ -32,7 +32,7 @@ body {
     border-left: 0 solid #222323;
     transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
     margin: 25px;
-    background: #fff;
+    background: honeydew;
     border: solid black;
     border-color: black;
     float: left;
@@ -79,7 +79,7 @@ body {
 
 .articlep {
     text-justify: newspaper;
-    font-size: small;
+    font-size: xx-large;
 
 }
 
@@ -98,7 +98,7 @@ body {
     border-left: 0 solid #222323;
     transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
     margin-top: 15px;
-    background: #fff;
+    background: honeydew;
     border: solid black;
     border-color: black;
     border-radius: 10px;
@@ -132,8 +132,6 @@ body {
     background: rgb(247, 245, 245) center;
     background-size: cover;
     color: white;
-    width: 400px;
-    height: 300px;
     padding: 2rem;
 
     &:before,
@@ -164,6 +162,7 @@ body {
     width: 150px;
     margin-left: 120px;
     /* box-shadow: -1em 0 .4em olive; */
+
 }
 
 .dateArticle {
