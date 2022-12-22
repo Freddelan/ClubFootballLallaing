@@ -34,7 +34,7 @@
                 <a class="titleAncien" href="php/controler/controlleur-article_entier.php?id_article=<?=$donneesarc[$i][0]?>" title=""> 
                         <div class="block-articleAncien" >
                                 <p class="date" ><?=$donneesarc[$i][3]?></p>
-                                <h2 class="titleArtAn" ><?=$donneescat[$i][1]?></h2>
+                                <h2 class="titleArtAn" ><?=$donneesarc[$i][1]?></h2>
                                 <img class="recent-imgAncien" src="php/vue/media/<?=$donneesarc[$i][4]?>" alt="">
                                 <div class="article-contentAncien">
                                         <!-- <h2><?=$donneesarc[$i][1]?></h2> -->

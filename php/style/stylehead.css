@@ -36,7 +36,7 @@ header {
     animation-name: slidein;
 }
 
-@keyframes slidein {
+/* @keyframes slidein {
     from {
         margin-left: 150%;
         width: 100%;
@@ -47,7 +47,7 @@ header {
         width: 100%;
     }
 
-}
+} */
 
 
 
@@ -83,13 +83,14 @@ a {
 
 
 .navbar-container {
-    margin-top: -9%;
+    margin-top: -12%;
     position: fixed;
     /* display: block; */
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     /* border-bottom: solid rgb(168, 168, 168) 1px; */
     margin-left: 25%;
+    z-index: 1;
 
 }
 
