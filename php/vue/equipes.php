@@ -97,4 +97,82 @@
 <li>Rutkowski Lexis</li>
 <li>Wasielewski Tom</li>
 </ul>
-</p></div></div>
+</p></div>
+<div class="equipes">
+    <p class="categ">
+        <strong class="u10">Catégorie U10 :</strong>
+        <ul>
+            <li>Botty Loucas</li>
+            <li>Bourgin Mathis</li>
+            <li>Candian Lucas</li>
+            <li>Capron Théo</li>
+            <li>Crépin Noham</li>
+            <li>Hugot Nathan</li>
+            <li>Lakomy Noé</li>
+            <li>Leduc Cristiano</li>
+            <li>Lefebvre Julian</li>
+            <li>Lemaire Lyvio</li>
+            <li>Leroy Timeo</li>
+        </ul>
+    </p>
+</div>
+<div class="equipes">
+    <p class="categ">
+        <strong class="u11">Catégorie U11 :</strong>
+        <ul>
+            <li>Canlers Ylan</li>
+            <li>Derome Nathan</li>
+            <li>Ferhah Naim</li>
+            <li>Laboure Ezio</li>
+            <li>Leroux Charles</li>
+            <li>Musial Nathan</li>
+            <li>Neuveglise Killian</li>
+            <li>Nicole Noah</li>
+            <li>Noiret Ryan</li>
+            <li>Plichon Nolan</li>
+            <li>Pucci Loan</li>
+        </ul>
+    </p>
+</div>
+<div class="equipes">
+    <p class="categ">
+        <strong class="u12">Catégorie U12 :</strong>
+        <ul>
+            <li>Bettini Pablo</li>
+            <li>Florentin Antoine</li>
+            <li>Lakomy Timeo</li>
+            <li>Mortelette Hugo</li>
+            <li>Musial Lukas</li>
+            <li>Pamart Lenny</li>
+            <li>Rutkowski Liham</li>
+            <li>Soltani Gibril</li>
+        </ul>
+    </p>
+</div>
+<div class="equipes">
+    <p class="categ">
+        <strong class="u13">Catégorie U13 :</strong>
+        <ul>
+            <li>Balle Loghan</li>
+            <li>Belhadji Riad</li>
+            <li>Dehant Liham</li>
+            <li>Fekraoui Ilies</li>
+            <li>Rizzi Luciano</li>
+        </ul>
+    </p>
+</div>
+<div class="equipes">
+    <p class="categ">
+        <strong class="u14">Catégorie U14 :</strong>
+        <ul>
+            <li>Alberto Tiago</li>
+            <li>Amharsi Zakaria</li>
+            <li>Bossart Esteban</li>
+            <li>Cornu Jean-Emile</li>
+            <li>Landy Matteo</li>
+            <li>Leroux Thomas</li>
+            <li>Pamart Ylan</li>
+        </ul>
+    </p>
+</div>
+</div>
