@@ -17,13 +17,29 @@
     <link rel="stylesheet" type="text/css" href="/php/vue/vue-article_entier.css">
     <link rel="stylesheet" type="text/css" href="/php/vue/resaux-sociaux.css">
     <link rel="stylesheet" type="text/css" href="/php/style/equipes.css">
+    <link rel="stylesheet" type="text/css" href="/php/style/boutonNeon.scss">
     
     <title>D.C.L LALLAING</title>
 </head>
 <body>
 <header>
+<div class="anim-cursor"></div>
+    <script>const cursor = document.querySelector(".anim-cursor");
 
-    
+document.addEventListener("mousemove", (e) => {
+  cursor.setAttribute(
+    "style",
+    "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
+  );
+});
+
+document.addEventListener("click", () => {
+  cursor.classList.add("expand");
+
+  setTimeout(() => {
+    cursor.classList.remove("expand");
+  }, 500);
+});</script>
                 <button class="btn"><a href="//d.c.lallaing/admin/vue/connexion.php">Login</a></button>
     
         <div class="logoPrin">
@@ -109,7 +125,7 @@ function closeNav() {
     
    
     </header>
-    
+    <script src="cursor.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     
     </body>

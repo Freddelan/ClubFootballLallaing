@@ -5,6 +5,7 @@
 body {
     background: beige;
     border: #ffc800 solid 5px;
+    cursor: none;
 }
 
 .container {
@@ -36,7 +37,7 @@ body {
     border: solid black 0.5px;
     border-color: black;
     float: left;
-
+    cursor: none;
 }
 
 .block-article:hover {
@@ -75,6 +76,7 @@ body {
     border-width: 3px 3px 5px 5px;
     border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
     transform: rotate(0deg);
+    cursor: none;
 }
 
 .articlep {
@@ -103,6 +105,7 @@ body {
     border-color: black;
     border-radius: 10px;
     float: left;
+    cursor: none;
 }
 
 .block-articleAncien:hover {
@@ -226,35 +229,42 @@ iframe {
     border: 1px yellow solid;
     background-image: url('../vue/Media/partenaire.png');
     width: 470px;
-    height: 200px;
+    height: 130px;
     /* display: flex; */
     margin-left: 130px;
-    margin-top: 138px;
+    margin-top: 165px;
     /* box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.5);
     border-radius: 50px; */
     */
 }
 
 .ici {
-    color: rgb(237, 96, 96);
+    color: white;
+    margin-top: 100px;
 }
 
 .adpart {
-    margin-top: 250px;
+    margin-top: 180px;
+}
+
+p,
+.adclub,
+.adsalle {
+    font-size: 15px;
 }
 
 .part {
     width: 50px;
     height: 50px;
     margin-left: -250px;
-    margin-top: 20px;
+    margin-top: 50px;
 
 }
 
 .pub {
 
     position: relative;
-    margin-left: 50px;
+    margin-left: 150px;
     width: 100%;
     /* height: 400px; */
     display: flex;
@@ -267,8 +277,9 @@ iframe {
     background: url(../vue/Media/stadelallaing.png);
     width: 1570px;
     height: 230px;
-    border: rgb(242, 242, 151) solid 5px;
-
+    border-top: hsl(60, 100%, 60%) solid 5px;
+    border-bottom: hsl(60, 100%, 60%) solid 5px;
+    z-index: 1;
 }
 
 .localisation {
@@ -282,74 +293,7 @@ iframe {
 
 }
 
-/* .polaroid-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.polaroid-border::before,
-.polaroid-border::after {
-    content: "";
-    position: absolute;
-    top: 24px;
-    left: 0;
-    height: 310px;
-    width: 20px;
-    background-color: #ffffff;
-
-}
-
-.polaroid-border::after {
-    left: unset;
-    right: 0px;
-}
-
-.polaroid-slider {
-    background-color: #ffffff;
-    height: 420px;
-    width: 350px;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-    border-radius: 5px;
-}
-
-.polaroid-slider-image {
-    width: 310px;
-    height: 310px;
-    margin: 24px auto;
-    display: block;
-    object-fit: cover;
-    object-position: 50% 50%;
-}
-
-.slick-dots {
-    bottom: 16px;
-}
-
-.slick-dots li button::before {
-    font-size: 10px;
-}
-
-.slick-dots li.slick-active button::before {
-    font-size: 12px;
-    color: #333333;
-    opacity: 1;
-}
-
-@media (max-width: 666px) {
-    .polaroid-slider {
-        height: 360px;
-        width: 300px;
-    }
-
-    .polaroid-slider-image {
-        height: 260px;
-        width: 260px;
-    }
-} */
-
-@media screen and (max-width:600px) {
+/ @media screen and (max-width:600px) {
 
     .article {
         text-align: center;
@@ -364,7 +308,7 @@ iframe {
     .partenaire,
     .Nous_trouver {
         margin-left: -80px;
-        width: 65%;
+        width: 100%;
     }
 
     .pub {

@@ -81,7 +81,8 @@
                 </div>
 
           
-                     <div class="partenaire">    <p><a href="https://www.lmf-energie.fr/" target="_blank">Notre partenaire <strong class="ici">içi</strong></a></p>
+                     <div class="partenaire">
+                            <a href="https://www.lmf-energie.fr/" target="_blank">Site partenaire</a>
                          <p class="adpart">LMF-ENERGIE <br>
                                 1 rue Allard <br>
                                 59167 LALLAING <br>

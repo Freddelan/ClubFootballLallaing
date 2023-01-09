@@ -11,12 +11,13 @@ body {
     height: auto;
     scroll-behavior: smooth;
     overflow-x: hidden;
-
+    cursor: none;
 }
 
 header {
     height: 100%;
     width: 100%;
+
 }
 
 
@@ -89,8 +90,8 @@ a {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     /* border-bottom: solid rgb(168, 168, 168) 1px; */
-    margin-left: 25%;
-    z-index: 1;
+    margin-left: 20%;
+    z-index: 5;
 
 }
 
@@ -98,7 +99,7 @@ a {
 .main-navbar {
     display: flex;
     justify-content: flex-start;
-    z-index: 1;
+    z-index: 3;
 }
 
 
@@ -146,7 +147,7 @@ a {
     border: solid 1px whitesmoke;
     border-radius: 20px;
     margin-right: 100px;
-    margin-left: 80%;
+    margin-left: 90%;
     position: relative;
 
 }
@@ -213,6 +214,7 @@ button {
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     float: right;
+    cursor: none;
 }
 
 
@@ -317,5 +319,83 @@ div #contact {
 
     .imglogo {
         margin-left: 40%;
+    }
+}
+
+.anim-cursor {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.anim-cursor::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 8px solid gray;
+    border-radius: 50%;
+    opacity: .5;
+    top: -8px;
+    left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(.7);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(3);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid red;
+}
+
+p {
+    color: black;
+    font-family: 'arial';
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.4em;
+
+    a {
+        color: teal;
     }
 }
